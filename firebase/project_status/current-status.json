@@ -1,0 +1,12 @@
+﻿{
+  "project_name": "Forest Harvest System",
+  "firebase_project_id": "forestry-rs-monitor",
+  "github_repository": "https://github.com/cct7366488-collab/forest-harvest-system",
+  "obsidian_vault": "C:\\ObsidianVaults\\ForestHarvestSystem",
+  "local_project_path": "C:\\Projects\\forest-harvest-system",
+  "status": "backend_environment_and_platform_integration_completed",
+  "next_phase": "firebase_firestore_collections_and_postgresql_orm",
+  "updated_at": "
+2026-05-09 21:30:12
+"
+}
