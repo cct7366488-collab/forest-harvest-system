@@ -2,7 +2,7 @@
 
 ## 一、本次收工摘要
 
-今日收工：完成 NFI 後端資料流程、開工與收工工具腳本建立。
+完成 NFI4 plot attributes 資料表設計與 nfi4_subrecords 至 nfi4_plot_attributes 抽取流程。
 
 ## 二、專案位置
 
@@ -14,7 +14,7 @@
 ## 三、Git 狀態
 
 - Branch：master
-- Commit：e6c5c57
+- Commit：9cbd5e8
 
 ### 收工前 Git status --short
 `	ext
@@ -23,16 +23,16 @@ working tree clean
 ",
 
 `	ext
+9cbd5e8 Add NFI4 plot attributes extraction
+a55234e Add NFI4 plot attributes table design
+f09af93 Add expanded NFI4 subrecords analysis
+d4d6f15 Add NFI4 subrecords to trees mapping rules
+6ddbc27 Add NFI4 subrecords sample import
+e273b2d Add NFI4 staging table and child field analysis
+50d24f5 Closing log 2026-05-10
 e6c5c57 Closing log 2026-05-10
 2b4d6ba Closing log 2026-05-10
 df85e8a Closing log 2026-05-10
-6a38adb Closing log for NFI backend phases
-e40068e Add NFI plot code rule and identifier utility
-bd40bdb Refine NFI plot identifiers and grouped plot import
-1e84870 Add NFI field mapping and sample plots import
-7c2d996 Add core ORM APIs and NFI ETL preview
-948191b Remove Python cache file from repository
-99bbf88 Add plots API and database ORM
 `",
 ",
 
@@ -51,8 +51,8 @@ bd40bdb Refine NFI plot identifiers and grouped plot import
 ",
 
 
-Backend Phase 6：NFI trees / 子紀錄匯入策略
+擴大 NFI4 subrecords 匯入範圍，重新抽取 nfi4_plot_attributes，驗證每個 NFI4 plot_code 是否有一筆 attributes。
 
 ## 六、收工時間
 
-2026-05-10 16:27:36
+2026-05-10 18:56:56

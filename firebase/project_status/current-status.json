@@ -5,8 +5,8 @@
     "obsidian_vault":  "C:\\ObsidianVaults\\ForestHarvestSystem",
     "local_project_path":  "C:\\Projects\\forest-harvest-system",
     "git_branch":  "master",
-    "git_commit":  "e6c5c57",
-    "summary":  "今日收工：完成 NFI 後端資料流程、開工與收工工具腳本建立。",
-    "next_phase":  "Backend Phase 6：NFI trees / 子紀錄匯入策略",
-    "updated_at":  "2026-05-10 16:27:36"
+    "git_commit":  "9cbd5e8",
+    "summary":  "完成 NFI4 plot attributes 資料表設計與 nfi4_subrecords 至 nfi4_plot_attributes 抽取流程。",
+    "next_phase":  "擴大 NFI4 subrecords 匯入範圍，重新抽取 nfi4_plot_attributes，驗證每個 NFI4 plot_code 是否有一筆 attributes。",
+    "updated_at":  "2026-05-10 18:56:56"
 }
