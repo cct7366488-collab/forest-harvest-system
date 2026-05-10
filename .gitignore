@@ -1,0 +1,29 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+
+# Environment
+.env
+.env.*
+
+# Node
+node_modules/
+dist/
+build/
+
+# Large raw data
+data/raw/
+
+# GIS temporary files
+*.qgz~
+*.gpkg-wal
+*.gpkg-shm
+
+# System files
+Thumbs.db
+.DS_Store
