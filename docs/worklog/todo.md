@@ -2,7 +2,7 @@
 
 ## 下一階段
 
-- [ ] 擴大 NFI4 subrecords 匯入範圍，重新抽取 nfi4_plot_attributes，驗證每個 NFI4 plot_code 是否有一筆 attributes。
+- [ ] Backend Phase 6：NFI trees / 子紀錄匯入策略
 - [ ] 判斷 NFI4 中哪些欄位屬於 trees 樣木層級
 - [ ] 建立 NFI4 → trees 欄位對應表
 - [ ] 建立 trees 匯入腳本

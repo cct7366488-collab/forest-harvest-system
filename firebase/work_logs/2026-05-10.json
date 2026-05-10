@@ -1,8 +1,8 @@
 ﻿{
     "date":  "2026-05-10",
-    "summary":  "完成 NFI4 plot attributes 資料表設計與 nfi4_subrecords 至 nfi4_plot_attributes 抽取流程。",
-    "next_phase":  "擴大 NFI4 subrecords 匯入範圍，重新抽取 nfi4_plot_attributes，驗證每個 NFI4 plot_code 是否有一筆 attributes。",
+    "summary":  "本次收工由 close-work.ps1 自動產生。",
+    "next_phase":  "Backend Phase 6：NFI trees / 子紀錄匯入策略",
     "git_branch":  "master",
-    "git_commit":  "9cbd5e8",
-    "updated_at":  "2026-05-10 18:56:56"
+    "git_commit":  "7fc0ee1",
+    "updated_at":  "2026-05-10 20:18:59"
 }
