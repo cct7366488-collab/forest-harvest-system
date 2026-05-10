@@ -5,8 +5,8 @@
     "obsidian_vault":  "C:\\ObsidianVaults\\ForestHarvestSystem",
     "local_project_path":  "C:\\Projects\\forest-harvest-system",
     "git_branch":  "master",
-    "git_commit":  "df85e8a",
-    "summary":  "本次收工由 close-work.ps1 自動產生。",
+    "git_commit":  "2b4d6ba",
+    "summary":  "今日收工：完成開工與收工工具腳本建立。",
     "next_phase":  "Backend Phase 6：NFI trees / 子紀錄匯入策略",
-    "updated_at":  "2026-05-10 16:23:47"
+    "updated_at":  "2026-05-10 16:25:12"
 }
