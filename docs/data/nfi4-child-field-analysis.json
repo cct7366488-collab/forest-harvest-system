@@ -1,0 +1,6791 @@
+{
+  "dataset": "NFI4",
+  "file": "C:\\Projects\\forest-harvest-system\\data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData.shp",
+  "encoding": "cp950",
+  "record_count": 86306,
+  "plot_group_count": 1556,
+  "group_fields": [
+    "樣點編號",
+    "X_Coord",
+    "Y_Coord"
+  ],
+  "field_reports": [
+    {
+      "field_name": "Volume",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 27547,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1556,
+      "group_vary_ratio": 1.0,
+      "top_values": [
+        [
+          "0.010386",
+          125
+        ],
+        [
+          "0.012116",
+          116
+        ],
+        [
+          "0.009935",
+          114
+        ],
+        [
+          "0.008655",
+          113
+        ],
+        [
+          "0.020029",
+          108
+        ],
+        [
+          "0.011922",
+          105
+        ],
+        [
+          "0.008955",
+          105
+        ],
+        [
+          "0.013909",
+          103
+        ],
+        [
+          "0.013565",
+          101
+        ],
+        [
+          "0.007462",
+          100
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "003|287580|2710045",
+          "distinct_values": [
+            "0.013928",
+            "0.01397",
+            "0.016444",
+            "0.018086",
+            "0.020418",
+            "0.020928",
+            "0.021694",
+            "0.027356",
+            "0.036727",
+            "0.049155"
+          ],
+          "distinct_count": 30
+        },
+        {
+          "group_key": "014|290580|2709545",
+          "distinct_values": [
+            "0.007294",
+            "0.008693",
+            "0.00926",
+            "0.010918",
+            "0.011391",
+            "0.013384",
+            "0.013456",
+            "0.01399",
+            "0.027544",
+            "0.027569"
+          ],
+          "distinct_count": 26
+        },
+        {
+          "group_key": "006|296830|2709795",
+          "distinct_values": [
+            "0.011044",
+            "0.011417",
+            "0.012369",
+            "0.036125",
+            "0.044539",
+            "0.133839",
+            "0.161188",
+            "0.250848",
+            "0.265137",
+            "0.355829"
+          ],
+          "distinct_count": 39
+        },
+        {
+          "group_key": "003|300080|2710045",
+          "distinct_values": [
+            "0.010918",
+            "0.015866",
+            "0.197775",
+            "0.644999",
+            "0.80578",
+            "0.83119",
+            "0.893529",
+            "1.29996",
+            "1.412805",
+            "2.187234"
+          ],
+          "distinct_count": 19
+        },
+        {
+          "group_key": "018|285080|2706545",
+          "distinct_values": [
+            "0.010732",
+            "0.011413",
+            "0.012052",
+            "0.012446",
+            "0.016451",
+            "0.020379",
+            "0.020588",
+            "0.021713",
+            "0.027509",
+            "0.033618"
+          ],
+          "distinct_count": 23
+        }
+      ],
+      "classification": "likely_tree_or_child_record_field"
+    },
+    {
+      "field_name": "Tree_Numbe",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 25402,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1556,
+      "group_vary_ratio": 1.0,
+      "top_values": [
+        [
+          "1.0",
+          1017
+        ],
+        [
+          "2.0",
+          1017
+        ],
+        [
+          "3.0",
+          1013
+        ],
+        [
+          "4.0",
+          1013
+        ],
+        [
+          "5.0",
+          1012
+        ],
+        [
+          "6.0",
+          1010
+        ],
+        [
+          "7.0",
+          1008
+        ],
+        [
+          "8.0",
+          1007
+        ],
+        [
+          "9.0",
+          1006
+        ],
+        [
+          "10.0",
+          1002
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "003|287580|2710045",
+          "distinct_values": [
+            "10100861.0",
+            "10100862.0",
+            "10100863.0",
+            "10100864.0",
+            "10100865.0",
+            "10100866.0",
+            "10100867.0",
+            "10100868.0",
+            "10100869.0",
+            "10100870.0"
+          ],
+          "distinct_count": 30
+        },
+        {
+          "group_key": "014|290580|2709545",
+          "distinct_values": [
+            "10100646.0",
+            "10100647.0",
+            "10100648.0",
+            "10100649.0",
+            "10100650.0",
+            "10100657.0",
+            "10100660.0",
+            "10100705.0",
+            "10100706.0",
+            "10100707.0"
+          ],
+          "distinct_count": 26
+        },
+        {
+          "group_key": "006|296830|2709795",
+          "distinct_values": [
+            "10102345.0",
+            "10102346.0",
+            "10102347.0",
+            "10102349.0",
+            "10102350.0",
+            "10102351.0",
+            "10102352.0",
+            "10102353.0",
+            "10102354.0",
+            "10102355.0"
+          ],
+          "distinct_count": 39
+        },
+        {
+          "group_key": "003|300080|2710045",
+          "distinct_values": [
+            "10100381.0",
+            "10100382.0",
+            "10100383.0",
+            "10100384.0",
+            "10100385.0",
+            "10100386.0",
+            "10100387.0",
+            "10100388.0",
+            "10100389.0",
+            "10100390.0"
+          ],
+          "distinct_count": 19
+        },
+        {
+          "group_key": "018|285080|2706545",
+          "distinct_values": [
+            "10104505.0",
+            "10104506.0",
+            "10104507.0",
+            "10104508.0",
+            "10104509.0",
+            "10104510.0",
+            "10104511.0",
+            "10104512.0",
+            "10104514.0",
+            "10104515.0"
+          ],
+          "distinct_count": 23
+        }
+      ],
+      "classification": "likely_tree_or_child_record_field"
+    },
+    {
+      "field_name": "DBH",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1190,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1556,
+      "group_vary_ratio": 1.0,
+      "top_values": [
+        [
+          "7.5",
+          1189
+        ],
+        [
+          "7.0",
+          1155
+        ],
+        [
+          "8.0",
+          1075
+        ],
+        [
+          "8.5",
+          1051
+        ],
+        [
+          "6.5",
+          1038
+        ],
+        [
+          "9.0",
+          973
+        ],
+        [
+          "7.8",
+          949
+        ],
+        [
+          "7.2",
+          934
+        ],
+        [
+          "9.5",
+          887
+        ],
+        [
+          "6.8",
+          839
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "003|287580|2710045",
+          "distinct_values": [
+            "10.3",
+            "101.5",
+            "11.0",
+            "14.0",
+            "16.0",
+            "17.8",
+            "18.0",
+            "26.0",
+            "35.2",
+            "36.0"
+          ],
+          "distinct_count": 27
+        },
+        {
+          "group_key": "014|290580|2709545",
+          "distinct_values": [
+            "11.6",
+            "11.8",
+            "12.1",
+            "12.4",
+            "13.2",
+            "13.6",
+            "16.1",
+            "16.8",
+            "20.4",
+            "22.6"
+          ],
+          "distinct_count": 24
+        },
+        {
+          "group_key": "006|296830|2709795",
+          "distinct_values": [
+            "11.6",
+            "12.4",
+            "16.0",
+            "19.5",
+            "21.2",
+            "24.0",
+            "24.2",
+            "25.1",
+            "26.1",
+            "26.8"
+          ],
+          "distinct_count": 35
+        },
+        {
+          "group_key": "003|300080|2710045",
+          "distinct_values": [
+            "21.6",
+            "31.0",
+            "32.2",
+            "34.3",
+            "40.0",
+            "41.7",
+            "48.8",
+            "49.5",
+            "51.2",
+            "51.6"
+          ],
+          "distinct_count": 18
+        },
+        {
+          "group_key": "018|285080|2706545",
+          "distinct_values": [
+            "10.4",
+            "13.4",
+            "13.5",
+            "135.0",
+            "165.0",
+            "18.1",
+            "19.1",
+            "20.1",
+            "20.5",
+            "23.0"
+          ],
+          "distinct_count": 23
+        }
+      ],
+      "classification": "likely_tree_or_child_record_field"
+    },
+    {
+      "field_name": "Tree_Heigh",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 349,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1556,
+      "group_vary_ratio": 1.0,
+      "top_values": [
+        [
+          "7.0",
+          5526
+        ],
+        [
+          "8.0",
+          4888
+        ],
+        [
+          "6.0",
+          4499
+        ],
+        [
+          "9.0",
+          3766
+        ],
+        [
+          "5.0",
+          3414
+        ],
+        [
+          "10.0",
+          3239
+        ],
+        [
+          "12.0",
+          2600
+        ],
+        [
+          "11.0",
+          2545
+        ],
+        [
+          "13.0",
+          1870
+        ],
+        [
+          "4.0",
+          1691
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "003|287580|2710045",
+          "distinct_values": [
+            "10.0",
+            "10.5",
+            "11.5",
+            "12.0",
+            "12.5",
+            "13.0",
+            "14.0",
+            "15.0",
+            "19.0",
+            "22.0"
+          ],
+          "distinct_count": 26
+        },
+        {
+          "group_key": "014|290580|2709545",
+          "distinct_values": [
+            "10.8",
+            "11.2",
+            "11.5",
+            "13.5",
+            "13.6",
+            "14.8",
+            "16.0",
+            "16.5",
+            "17.0",
+            "4.6"
+          ],
+          "distinct_count": 23
+        },
+        {
+          "group_key": "006|296830|2709795",
+          "distinct_values": [
+            "12.0",
+            "14.3",
+            "14.8",
+            "15.8",
+            "16.7",
+            "16.8",
+            "16.9",
+            "17.2",
+            "17.5",
+            "17.8"
+          ],
+          "distinct_count": 32
+        },
+        {
+          "group_key": "003|300080|2710045",
+          "distinct_values": [
+            "12.0",
+            "19.0",
+            "20.0",
+            "21.5",
+            "22.0",
+            "23.0",
+            "24.0",
+            "24.5",
+            "25.0",
+            "26.0"
+          ],
+          "distinct_count": 13
+        },
+        {
+          "group_key": "018|285080|2706545",
+          "distinct_values": [
+            "10.2",
+            "10.8",
+            "11.5",
+            "13.6",
+            "15.1",
+            "18.5",
+            "27.0",
+            "5.2",
+            "5.3",
+            "5.5"
+          ],
+          "distinct_count": 22
+        }
+      ],
+      "classification": "likely_tree_or_child_record_field"
+    },
+    {
+      "field_name": "Tree_X",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 71700,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1554,
+      "group_vary_ratio": 0.9987146529562982,
+      "top_values": [
+        [
+          "0.0",
+          231
+        ],
+        [
+          "221803.224819",
+          44
+        ],
+        [
+          "251834.919729",
+          21
+        ],
+        [
+          "251817.683154",
+          18
+        ],
+        [
+          "216072.357479",
+          17
+        ],
+        [
+          "227832.525247",
+          16
+        ],
+        [
+          "245842.335918",
+          15
+        ],
+        [
+          "227597.069543",
+          13
+        ],
+        [
+          "258077.650896",
+          12
+        ],
+        [
+          "227837.313917",
+          12
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "003|287580|2710045",
+          "distinct_values": [
+            "287599.516002",
+            "287599.688495",
+            "287602.376327",
+            "287603.579845",
+            "287603.727456",
+            "287604.069591",
+            "287605.396833",
+            "287605.798366",
+            "287605.914312",
+            "287606.09946"
+          ],
+          "distinct_count": 29
+        },
+        {
+          "group_key": "014|290580|2709545",
+          "distinct_values": [
+            "290610.046398",
+            "290610.339369",
+            "290611.782074",
+            "290611.913849",
+            "290614.304151",
+            "290616.198387",
+            "290617.386342",
+            "290618.365845",
+            "290620.273113",
+            "290620.61166"
+          ],
+          "distinct_count": 22
+        },
+        {
+          "group_key": "006|296830|2709795",
+          "distinct_values": [
+            "296828.676025",
+            "296829.18854",
+            "296829.269216",
+            "296829.276224",
+            "296831.621939",
+            "296832.394771",
+            "296833.218879",
+            "296833.490605",
+            "296834.405817",
+            "296834.490765"
+          ],
+          "distinct_count": 39
+        },
+        {
+          "group_key": "003|300080|2710045",
+          "distinct_values": [
+            "300076.716166",
+            "300077.653994",
+            "300077.84108",
+            "300078.525862",
+            "300080.70514",
+            "300081.284751",
+            "300081.3602",
+            "300081.756532",
+            "300082.794108",
+            "300082.858712"
+          ],
+          "distinct_count": 19
+        },
+        {
+          "group_key": "018|285080|2706545",
+          "distinct_values": [
+            "285082.42159",
+            "285086.602545",
+            "285087.173797",
+            "285087.212741",
+            "285087.931645",
+            "285088.146406",
+            "285088.543056",
+            "285088.903495",
+            "285090.263036",
+            "285090.384195"
+          ],
+          "distinct_count": 16
+        }
+      ],
+      "classification": "likely_tree_or_child_record_field"
+    },
+    {
+      "field_name": "Tree_Y",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 71689,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1554,
+      "group_vary_ratio": 0.9987146529562982,
+      "top_values": [
+        [
+          "0.0",
+          231
+        ],
+        [
+          "2697792.336776",
+          44
+        ],
+        [
+          "2598803.937041",
+          21
+        ],
+        [
+          "2670778.503058",
+          18
+        ],
+        [
+          "2538540.186988",
+          17
+        ],
+        [
+          "2472800.109976",
+          16
+        ],
+        [
+          "2619815.924518",
+          15
+        ],
+        [
+          "2475534.328057",
+          13
+        ],
+        [
+          "2614040.681527",
+          12
+        ],
+        [
+          "2472797.437934",
+          12
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "003|287580|2710045",
+          "distinct_values": [
+            "2710068.34365",
+            "2710068.397723",
+            "2710069.114799",
+            "2710069.606555",
+            "2710071.212763",
+            "2710072.711663",
+            "2710073.110539",
+            "2710073.13945",
+            "2710073.654809",
+            "2710075.465072"
+          ],
+          "distinct_count": 29
+        },
+        {
+          "group_key": "014|290580|2709545",
+          "distinct_values": [
+            "2709542.173661",
+            "2709543.229206",
+            "2709544.319498",
+            "2709546.876115",
+            "2709549.900788",
+            "2709550.034101",
+            "2709550.588219",
+            "2709552.758251",
+            "2709553.240598",
+            "2709553.929489"
+          ],
+          "distinct_count": 22
+        },
+        {
+          "group_key": "006|296830|2709795",
+          "distinct_values": [
+            "2709789.245995",
+            "2709789.662624",
+            "2709790.52194",
+            "2709790.564592",
+            "2709792.485758",
+            "2709793.247372",
+            "2709795.006979",
+            "2709795.479499",
+            "2709795.595262",
+            "2709795.725312"
+          ],
+          "distinct_count": 39
+        },
+        {
+          "group_key": "003|300080|2710045",
+          "distinct_values": [
+            "2710023.608465",
+            "2710023.959234",
+            "2710025.196199",
+            "2710027.167157",
+            "2710027.204647",
+            "2710028.991081",
+            "2710030.296131",
+            "2710032.659589",
+            "2710033.376888",
+            "2710034.53994"
+          ],
+          "distinct_count": 19
+        },
+        {
+          "group_key": "018|285080|2706545",
+          "distinct_values": [
+            "2706538.343362",
+            "2706541.170325",
+            "2706543.274281",
+            "2706544.338901",
+            "2706544.993573",
+            "2706547.102468",
+            "2706547.849145",
+            "2706549.344165",
+            "2706549.482496",
+            "2706550.17791"
+          ],
+          "distinct_count": 16
+        }
+      ],
+      "classification": "likely_tree_or_child_record_field"
+    },
+    {
+      "field_name": "Tree_Crown",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 16,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1534,
+      "group_vary_ratio": 0.9858611825192802,
+      "top_values": [
+        [
+          "3.0",
+          28332
+        ],
+        [
+          "2.0",
+          22030
+        ],
+        [
+          "4.0",
+          18089
+        ],
+        [
+          "5.0",
+          15754
+        ],
+        [
+          "1.0",
+          2026
+        ],
+        [
+          "0.0",
+          61
+        ],
+        [
+          "6.0",
+          3
+        ],
+        [
+          "7.0",
+          3
+        ],
+        [
+          "25.0",
+          1
+        ],
+        [
+          "3.5",
+          1
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "003|287580|2710045",
+          "distinct_values": [
+            "2.0",
+            "3.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "014|290580|2709545",
+          "distinct_values": [
+            "2.0",
+            "3.0",
+            "4.0"
+          ],
+          "distinct_count": 3
+        },
+        {
+          "group_key": "006|296830|2709795",
+          "distinct_values": [
+            "2.0",
+            "3.0",
+            "4.0"
+          ],
+          "distinct_count": 3
+        },
+        {
+          "group_key": "003|300080|2710045",
+          "distinct_values": [
+            "1.0",
+            "2.0",
+            "3.0"
+          ],
+          "distinct_count": 3
+        },
+        {
+          "group_key": "018|285080|2706545",
+          "distinct_values": [
+            "2.0",
+            "3.0",
+            "4.0",
+            "5.0"
+          ],
+          "distinct_count": 4
+        }
+      ],
+      "classification": "likely_tree_or_child_record_field"
+    },
+    {
+      "field_name": "Tree_En_Na",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 564,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1521,
+      "group_vary_ratio": 0.9775064267352185,
+      "top_values": [
+        [
+          "Pinus taiwanensis",
+          3169
+        ],
+        [
+          "Long-leaved litsea",
+          2513
+        ],
+        [
+          "Red machilus.",
+          2431
+        ],
+        [
+          "Tsuga chinensis",
+          2365
+        ],
+        [
+          "Japanese Cedar",
+          1953
+        ],
+        [
+          "Common schefflera",
+          1701
+        ],
+        [
+          "Red Cypress",
+          1651
+        ],
+        [
+          "Purple woodnettle",
+          1648
+        ],
+        [
+          "Subcostate crape myrtle.",
+          1567
+        ],
+        [
+          "Long glans oak",
+          1497
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "003|287580|2710045",
+          "distinct_values": [
+            "Acuminate-leaved neolitsea",
+            "Alishan sweet leaf.",
+            "Bird-lime tree",
+            "Hayata's cleyera",
+            "Red Cypress",
+            "Taiwania cryptomerioides",
+            "Tsuga chinensis",
+            "Wusheh actinodaphne",
+            "Yellow Cypress"
+          ],
+          "distinct_count": 9
+        },
+        {
+          "group_key": "014|290580|2709545",
+          "distinct_values": [
+            "Common glochidion.",
+            "Common schefflera",
+            "Formosan beauty-berry.",
+            "Formosan turpinia",
+            "Milk fig.",
+            "Musha machilus",
+            "Purple woodnettle",
+            "Red Cypress",
+            "Small-flower sweet spire.",
+            "Subcostate crape myrtle."
+          ],
+          "distinct_count": 10
+        },
+        {
+          "group_key": "006|296830|2709795",
+          "distinct_values": [
+            "Dark spotted cherry",
+            "Few-dentate leaf oak",
+            "Japanese Cedar",
+            "Matsuda osmanthus.",
+            "Symplocos wikstroemiifolia",
+            "Variable-leaved neolitsea"
+          ],
+          "distinct_count": 6
+        },
+        {
+          "group_key": "003|300080|2710045",
+          "distinct_values": [
+            "Bird-lime tree",
+            "Japanese Cedar",
+            "Mori's Cleyera"
+          ],
+          "distinct_count": 3
+        },
+        {
+          "group_key": "018|285080|2706545",
+          "distinct_values": [
+            "Acuminate-leaved neolitsea",
+            "Bird-lime tree",
+            "Few-dentate leaf oak",
+            "Wusheh actinodaphne",
+            "Yellow Cypress"
+          ],
+          "distinct_count": 5
+        }
+      ],
+      "classification": "likely_tree_or_child_record_field"
+    },
+    {
+      "field_name": "Tree_Chi_N",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 548,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1521,
+      "group_vary_ratio": 0.9775064267352185,
+      "top_values": [
+        [
+          "臺灣二葉松",
+          3169
+        ],
+        [
+          "長葉木薑子",
+          2513
+        ],
+        [
+          "豬腳楠",
+          2431
+        ],
+        [
+          "臺灣鐵杉",
+          2365
+        ],
+        [
+          "柳杉",
+          1953
+        ],
+        [
+          "鵝掌柴",
+          1701
+        ],
+        [
+          "臺灣紅檜",
+          1651
+        ],
+        [
+          "長梗紫麻",
+          1648
+        ],
+        [
+          "九芎",
+          1567
+        ],
+        [
+          "錐果櫟",
+          1497
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "003|287580|2710045",
+          "distinct_values": [
+            "昆欄樹",
+            "紅淡比",
+            "臺灣扁柏",
+            "臺灣杉",
+            "臺灣紅檜",
+            "臺灣鐵杉",
+            "阿里山灰木",
+            "霧社木薑子",
+            "高山新木薑子"
+          ],
+          "distinct_count": 9
+        },
+        {
+          "group_key": "014|290580|2709545",
+          "distinct_values": [
+            "九芎",
+            "小花鼠刺",
+            "山香圓",
+            "杜虹花",
+            "牛奶榕",
+            "細葉饅頭果",
+            "臺灣紅檜",
+            "長梗紫麻",
+            "青葉楠",
+            "鵝掌柴"
+          ],
+          "distinct_count": 10
+        },
+        {
+          "group_key": "006|296830|2709795",
+          "distinct_values": [
+            "墨點櫻桃",
+            "小葉木犀",
+            "月桂葉灰木",
+            "柳杉",
+            "毽子椆",
+            "變葉新木薑子"
+          ],
+          "distinct_count": 6
+        },
+        {
+          "group_key": "003|300080|2710045",
+          "distinct_values": [
+            "昆欄樹",
+            "柳杉",
+            "森氏紅淡比"
+          ],
+          "distinct_count": 3
+        },
+        {
+          "group_key": "018|285080|2706545",
+          "distinct_values": [
+            "昆欄樹",
+            "毽子椆",
+            "臺灣扁柏",
+            "霧社木薑子",
+            "高山新木薑子"
+          ],
+          "distinct_count": 5
+        }
+      ],
+      "classification": "likely_tree_or_child_record_field"
+    },
+    {
+      "field_name": "P_S_",
+      "total_records": 86306,
+      "non_empty_count": 29473,
+      "empty_count": 56833,
+      "unique_count": 3135,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1555,
+      "group_vary_ratio": 0.9993573264781491,
+      "top_values": [
+        [
+          "1株2",
+          4556
+        ],
+        [
+          "實測",
+          2854
+        ],
+        [
+          "1株3",
+          1930
+        ],
+        [
+          "0 （無,空白）",
+          1415
+        ],
+        [
+          "同株",
+          1332
+        ],
+        [
+          "欠頂",
+          999
+        ],
+        [
+          "1株4",
+          850
+        ],
+        [
+          "7 (實測樹高)",
+          635
+        ],
+        [
+          "傾斜",
+          560
+        ],
+        [
+          "A木",
+          518
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "003|287580|2710045",
+          "distinct_values": [
+            "1 (A木)",
+            "2 (B木)",
+            "5 (與69同株)",
+            "7 （實測樹高）"
+          ],
+          "distinct_count": 4
+        },
+        {
+          "group_key": "014|290580|2709545",
+          "distinct_values": [
+            "1 (A木)",
+            "2 (B木)",
+            "5 (與11同株)",
+            "5 (與12同株)",
+            "5 (與15同株)",
+            "5 (與50同株)",
+            "7 （實測樹高）"
+          ],
+          "distinct_count": 7
+        },
+        {
+          "group_key": "006|296830|2709795",
+          "distinct_values": [
+            "1 (A木)",
+            "2 (B木)",
+            "7 （實測樹高）"
+          ],
+          "distinct_count": 3
+        },
+        {
+          "group_key": "003|300080|2710045",
+          "distinct_values": [
+            "1 (A木)",
+            "2 (B木)",
+            "7 （實測樹高）"
+          ],
+          "distinct_count": 3
+        },
+        {
+          "group_key": "018|285080|2706545",
+          "distinct_values": [
+            "0 （無,空白）",
+            "1 （A木）",
+            "24 （B木,欠頂）",
+            "5 （與10104505同株）",
+            "5 （與10104507同株）",
+            "5 （與10104516同株）",
+            "5 （與10104519同株）",
+            "5 （與10104524同株）",
+            "6 （胸徑測量下移10公分）",
+            "6 （胸徑測量下移20公分）"
+          ],
+          "distinct_count": 11
+        }
+      ],
+      "classification": "likely_child_record_field"
+    },
+    {
+      "field_name": "Branch_Hei",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 214,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1555,
+      "group_vary_ratio": 0.9993573264781491,
+      "top_values": [
+        [
+          "2.0",
+          8562
+        ],
+        [
+          "3.0",
+          6753
+        ],
+        [
+          "4.0",
+          6030
+        ],
+        [
+          "5.0",
+          4447
+        ],
+        [
+          "1.5",
+          3774
+        ],
+        [
+          "6.0",
+          3758
+        ],
+        [
+          "2.5",
+          2871
+        ],
+        [
+          "7.0",
+          2837
+        ],
+        [
+          "1.4",
+          2193
+        ],
+        [
+          "8.0",
+          2102
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "003|287580|2710045",
+          "distinct_values": [
+            "1.6",
+            "1.8",
+            "10.0",
+            "11.0",
+            "12.0",
+            "13.5",
+            "14.0",
+            "15.0",
+            "16.0",
+            "17.0"
+          ],
+          "distinct_count": 27
+        },
+        {
+          "group_key": "014|290580|2709545",
+          "distinct_values": [
+            "1.5",
+            "1.6",
+            "1.7",
+            "1.8",
+            "1.9",
+            "10.2",
+            "2.0",
+            "2.3",
+            "2.4",
+            "2.5"
+          ],
+          "distinct_count": 20
+        },
+        {
+          "group_key": "006|296830|2709795",
+          "distinct_values": [
+            "10.0",
+            "10.2",
+            "11.2",
+            "12.5",
+            "13.2",
+            "13.4",
+            "13.5",
+            "15.1",
+            "2.3",
+            "2.5"
+          ],
+          "distinct_count": 29
+        },
+        {
+          "group_key": "003|300080|2710045",
+          "distinct_values": [
+            "1.9",
+            "10.0",
+            "13.0",
+            "13.5",
+            "14.0",
+            "15.0",
+            "16.0",
+            "17.0",
+            "18.0",
+            "2.0"
+          ],
+          "distinct_count": 17
+        },
+        {
+          "group_key": "018|285080|2706545",
+          "distinct_values": [
+            "1.4",
+            "1.5",
+            "1.6",
+            "10.5",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5",
+            "2.7",
+            "2.8"
+          ],
+          "distinct_count": 17
+        }
+      ],
+      "classification": "likely_child_record_field"
+    },
+    {
+      "field_name": "X_asis",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 807,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1554,
+      "group_vary_ratio": 0.9987146529562982,
+      "top_values": [
+        [
+          "1.0",
+          1357
+        ],
+        [
+          "1.5",
+          1209
+        ],
+        [
+          "0.5",
+          1161
+        ],
+        [
+          "2.0",
+          1151
+        ],
+        [
+          "1.8",
+          1145
+        ],
+        [
+          "1.1",
+          1144
+        ],
+        [
+          "0.8",
+          1140
+        ],
+        [
+          "1.3",
+          1129
+        ],
+        [
+          "3.0",
+          1115
+        ],
+        [
+          "1.6",
+          1114
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "003|287580|2710045",
+          "distinct_values": [
+            "0.6",
+            "0.7",
+            "0.8",
+            "1.0",
+            "1.3",
+            "1.5",
+            "1.8",
+            "2.2",
+            "2.6",
+            "2.8"
+          ],
+          "distinct_count": 24
+        },
+        {
+          "group_key": "014|290580|2709545",
+          "distinct_values": [
+            "0.7",
+            "0.8",
+            "1.4",
+            "2.1",
+            "2.3",
+            "2.9",
+            "3.2",
+            "4.0",
+            "4.4",
+            "4.5"
+          ],
+          "distinct_count": 21
+        },
+        {
+          "group_key": "006|296830|2709795",
+          "distinct_values": [
+            "0.1",
+            "0.3",
+            "0.4",
+            "0.5",
+            "0.9",
+            "1.2",
+            "1.5",
+            "1.8",
+            "2.3",
+            "3.0"
+          ],
+          "distinct_count": 32
+        },
+        {
+          "group_key": "003|300080|2710045",
+          "distinct_values": [
+            "0.6",
+            "1.2",
+            "1.4",
+            "1.6",
+            "1.8",
+            "2.1",
+            "2.8",
+            "3.7",
+            "3.9",
+            "4.1"
+          ],
+          "distinct_count": 18
+        },
+        {
+          "group_key": "018|285080|2706545",
+          "distinct_values": [
+            "0.7",
+            "1.0",
+            "1.1",
+            "1.5",
+            "2.2",
+            "2.5",
+            "3.0",
+            "4.2",
+            "4.6",
+            "5.3"
+          ],
+          "distinct_count": 14
+        }
+      ],
+      "classification": "likely_child_record_field"
+    },
+    {
+      "field_name": "Y_axis",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 605,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1554,
+      "group_vary_ratio": 0.9987146529562982,
+      "top_values": [
+        [
+          "0.1",
+          478
+        ],
+        [
+          "1.3",
+          364
+        ],
+        [
+          "18.0",
+          356
+        ],
+        [
+          "21.0",
+          355
+        ],
+        [
+          "2.5",
+          345
+        ],
+        [
+          "27.0",
+          342
+        ],
+        [
+          "7.0",
+          342
+        ],
+        [
+          "2.0",
+          338
+        ],
+        [
+          "14.0",
+          337
+        ],
+        [
+          "6.0",
+          336
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "003|287580|2710045",
+          "distinct_values": [
+            "10.2",
+            "10.7",
+            "12.3",
+            "13.4",
+            "14.4",
+            "15.0",
+            "17.8",
+            "18.4",
+            "2.1",
+            "2.2"
+          ],
+          "distinct_count": 28
+        },
+        {
+          "group_key": "014|290580|2709545",
+          "distinct_values": [
+            "10.2",
+            "10.4",
+            "13.4",
+            "14.0",
+            "15.6",
+            "17.7",
+            "2.7",
+            "2.9",
+            "20.3",
+            "21.1"
+          ],
+          "distinct_count": 21
+        },
+        {
+          "group_key": "006|296830|2709795",
+          "distinct_values": [
+            "0.1",
+            "0.3",
+            "1.6",
+            "10.3",
+            "12.6",
+            "13.0",
+            "14.5",
+            "14.9",
+            "17.6",
+            "17.8"
+          ],
+          "distinct_count": 37
+        },
+        {
+          "group_key": "003|300080|2710045",
+          "distinct_values": [
+            "0.1",
+            "1.5",
+            "1.9",
+            "12.3",
+            "14.2",
+            "14.3",
+            "15.2",
+            "17.0",
+            "18.2",
+            "18.4"
+          ],
+          "distinct_count": 19
+        },
+        {
+          "group_key": "018|285080|2706545",
+          "distinct_values": [
+            "1.5",
+            "12.7",
+            "13.1",
+            "17.0",
+            "17.1",
+            "17.5",
+            "17.9",
+            "18.0",
+            "18.8",
+            "19.5"
+          ],
+          "distinct_count": 16
+        }
+      ],
+      "classification": "likely_child_record_field"
+    },
+    {
+      "field_name": "Record_Typ",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 7,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1549,
+      "group_vary_ratio": 0.9955012853470437,
+      "top_values": [
+        [
+          "1.0",
+          43947
+        ],
+        [
+          "2.0",
+          42305
+        ],
+        [
+          "3.0",
+          15
+        ],
+        [
+          "6.0",
+          14
+        ],
+        [
+          "4.0",
+          13
+        ],
+        [
+          "5.0",
+          11
+        ],
+        [
+          "0.0",
+          1
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "003|287580|2710045",
+          "distinct_values": [
+            "1.0",
+            "2.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "014|290580|2709545",
+          "distinct_values": [
+            "1.0",
+            "2.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "006|296830|2709795",
+          "distinct_values": [
+            "1.0",
+            "2.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "003|300080|2710045",
+          "distinct_values": [
+            "1.0",
+            "2.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "018|285080|2706545",
+          "distinct_values": [
+            "1.0",
+            "2.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "likely_child_record_field"
+    },
+    {
+      "field_name": "Scientific",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 545,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1521,
+      "group_vary_ratio": 0.9775064267352185,
+      "top_values": [
+        [
+          "Pinus taiwanensis Hayata",
+          3169
+        ],
+        [
+          "Litsea acuminata (Blume) Kurata",
+          2513
+        ],
+        [
+          "Machilus thunbergii Sieb. & Zucc.",
+          2431
+        ],
+        [
+          "Tsuga chinensis (Franchet) Pritz. ex Diels var. formosana (Hayata) Li & Keng",
+          2365
+        ],
+        [
+          "Cryptomeria japonica (L. f.) D. Don",
+          1953
+        ],
+        [
+          "Schefflera octophylla (Lour.) Harms",
+          1701
+        ],
+        [
+          "Chamaecyparis formosensis Matsum.",
+          1651
+        ],
+        [
+          "Oreocnide pedunculata (Shirai) Masam.",
+          1648
+        ],
+        [
+          "Lagerstroemia subcostata Koehne",
+          1567
+        ],
+        [
+          "Cyclobalanopsis longinux (Hayata) Schott.",
+          1497
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "003|287580|2710045",
+          "distinct_values": [
+            "Chamaecyparis formosensis Matsum.",
+            "Chamaecyparis obtusa Sieb. & Zucc. var. formosana (Hayata) Rehder",
+            "Cleyera japonica Thunb.",
+            "Litsea elongata (Wall. ex Nees) Benth. & Hook. f. var. mushaensis (Hayata) J. C. Liao",
+            "Neolitsea acuminatissima (Hayata) Kanehira & Sasaki",
+            "Symplocos arisanensis Hayata",
+            "Taiwania cryptomerioides Hayata",
+            "Trochodendron aralioides Sieb. & Zucc.",
+            "Tsuga chinensis (Franchet) Pritz. ex Diels var. formosana (Hayata) Li & Keng"
+          ],
+          "distinct_count": 9
+        },
+        {
+          "group_key": "014|290580|2709545",
+          "distinct_values": [
+            "Callicarpa formosana Rolfe",
+            "Chamaecyparis formosensis Matsum.",
+            "Ficus erecta Thunb. var. beecheyana (Hook. & Arn.) King",
+            "Glochidion rubrum Blume",
+            "Itea parviflora Hemsl.",
+            "Lagerstroemia subcostata Koehne",
+            "Machilus zuihoensis Hayata var. mushaensis (Lu) Y. C. Liu",
+            "Oreocnide pedunculata (Shirai) Masam.",
+            "Schefflera octophylla (Lour.) Harms",
+            "Turpinia formosana Nakai"
+          ],
+          "distinct_count": 10
+        },
+        {
+          "group_key": "006|296830|2709795",
+          "distinct_values": [
+            "Cryptomeria japonica (L. f.) D. Don",
+            "Cyclobalanopsis sessilifolia (Bl.) Schott.",
+            "Neolitsea aciculata (Bl.) Koidz. var. variabillima (Hayata) J. C. Liao",
+            "Osmanthus marginatus (Champ. ex Benth.) Hemsl.",
+            "Prunus phaeosticta (Hance) Maxim.",
+            "Symplocos wikstroemiifolia Hayata"
+          ],
+          "distinct_count": 6
+        },
+        {
+          "group_key": "003|300080|2710045",
+          "distinct_values": [
+            "Cleyera japonica Thunb. var. morii (Yamamoto) Masam.",
+            "Cryptomeria japonica (L. f.) D. Don",
+            "Trochodendron aralioides Sieb. & Zucc."
+          ],
+          "distinct_count": 3
+        },
+        {
+          "group_key": "018|285080|2706545",
+          "distinct_values": [
+            "Chamaecyparis obtusa Sieb. & Zucc. var. formosana (Hayata) Rehder",
+            "Cyclobalanopsis sessilifolia (Bl.) Schott.",
+            "Litsea elongata (Wall. ex Nees) Benth. & Hook. f. var. mushaensis (Hayata) J. C. Liao",
+            "Neolitsea acuminatissima (Hayata) Kanehira & Sasaki",
+            "Trochodendron aralioides Sieb. & Zucc."
+          ],
+          "distinct_count": 5
+        }
+      ],
+      "classification": "likely_child_record_field"
+    },
+    {
+      "field_name": "Plot_Y",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1398,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 9,
+      "group_vary_ratio": 0.005784061696658098,
+      "top_values": [
+        [
+          "0.0",
+          917
+        ],
+        [
+          "2550795.0",
+          292
+        ],
+        [
+          "2685791.0",
+          255
+        ],
+        [
+          "2682795.0",
+          248
+        ],
+        [
+          "2625801.0",
+          246
+        ],
+        [
+          "2697793.0",
+          237
+        ],
+        [
+          "2694795.0",
+          233
+        ],
+        [
+          "2754792.0",
+          227
+        ],
+        [
+          "2574802.0",
+          227
+        ],
+        [
+          "2712544.0",
+          224
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "045|329830|2760795",
+          "distinct_values": [
+            "0.0",
+            "2760785.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "006|311830|2712795",
+          "distinct_values": [
+            "0.0",
+            "2712796.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "052|266830|2643795",
+          "distinct_values": [
+            "0.0",
+            "2643798.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "054|272830|2643795",
+          "distinct_values": [
+            "0.0",
+            "2643786.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "013|272580|2709545",
+          "distinct_values": [
+            "0.0",
+            "2709534.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "Plot_X",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1213,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 9,
+      "group_vary_ratio": 0.005784061696658098,
+      "top_values": [
+        [
+          "0.0",
+          917
+        ],
+        [
+          "233830.0",
+          464
+        ],
+        [
+          "227830.0",
+          395
+        ],
+        [
+          "236828.0",
+          325
+        ],
+        [
+          "230834.0",
+          304
+        ],
+        [
+          "260831.0",
+          295
+        ],
+        [
+          "269830.0",
+          284
+        ],
+        [
+          "281830.0",
+          269
+        ],
+        [
+          "230820.0",
+          267
+        ],
+        [
+          "263832.0",
+          262
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "045|329830|2760795",
+          "distinct_values": [
+            "0.0",
+            "329812.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "006|311830|2712795",
+          "distinct_values": [
+            "0.0",
+            "311843.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "052|266830|2643795",
+          "distinct_values": [
+            "0.0",
+            "266836.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "054|272830|2643795",
+          "distinct_values": [
+            "0.0",
+            "272835.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "013|272580|2709545",
+          "distinct_values": [
+            "0.0",
+            "272596.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "Survey_Dat",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 747,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 9,
+      "group_vary_ratio": 0.005784061696658098,
+      "top_values": [
+        [
+          "0.0",
+          917
+        ],
+        [
+          "20090923.0",
+          593
+        ],
+        [
+          "20081105.0",
+          548
+        ],
+        [
+          "20080723.0",
+          506
+        ],
+        [
+          "20090218.0",
+          505
+        ],
+        [
+          "20090826.0",
+          478
+        ],
+        [
+          "20090514.0",
+          467
+        ],
+        [
+          "20081106.0",
+          467
+        ],
+        [
+          "20080909.0",
+          423
+        ],
+        [
+          "20090428.0",
+          420
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "045|329830|2760795",
+          "distinct_values": [
+            "0.0",
+            "20081022.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "006|311830|2712795",
+          "distinct_values": [
+            "0.0",
+            "20081203.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "052|266830|2643795",
+          "distinct_values": [
+            "0.0",
+            "20121014.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "054|272830|2643795",
+          "distinct_values": [
+            "0.0",
+            "20100120.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "013|272580|2709545",
+          "distinct_values": [
+            "0.0",
+            "20101201.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "Aspect",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 344,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 9,
+      "group_vary_ratio": 0.005784061696658098,
+      "top_values": [
+        [
+          "0.0",
+          1253
+        ],
+        [
+          "255.0",
+          1173
+        ],
+        [
+          "310.0",
+          1093
+        ],
+        [
+          "270.0",
+          1056
+        ],
+        [
+          "105.0",
+          959
+        ],
+        [
+          "125.0",
+          847
+        ],
+        [
+          "5.0",
+          815
+        ],
+        [
+          "95.0",
+          812
+        ],
+        [
+          "180.0",
+          781
+        ],
+        [
+          "165.0",
+          772
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "045|329830|2760795",
+          "distinct_values": [
+            "0.0",
+            "30.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "006|311830|2712795",
+          "distinct_values": [
+            "0.0",
+            "180.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "052|266830|2643795",
+          "distinct_values": [
+            "0.0",
+            "21.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "054|272830|2643795",
+          "distinct_values": [
+            "0.0",
+            "59.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "013|272580|2709545",
+          "distinct_values": [
+            "0.0",
+            "183.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "Slope",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 63,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 9,
+      "group_vary_ratio": 0.005784061696658098,
+      "top_values": [
+        [
+          "30.0",
+          6187
+        ],
+        [
+          "40.0",
+          6170
+        ],
+        [
+          "35.0",
+          4859
+        ],
+        [
+          "38.0",
+          3968
+        ],
+        [
+          "32.0",
+          3490
+        ],
+        [
+          "33.0",
+          3445
+        ],
+        [
+          "42.0",
+          3016
+        ],
+        [
+          "45.0",
+          2879
+        ],
+        [
+          "34.0",
+          2822
+        ],
+        [
+          "20.0",
+          2770
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "045|329830|2760795",
+          "distinct_values": [
+            "0.0",
+            "20.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "006|311830|2712795",
+          "distinct_values": [
+            "0.0",
+            "19.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "052|266830|2643795",
+          "distinct_values": [
+            "0.0",
+            "40.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "054|272830|2643795",
+          "distinct_values": [
+            "0.0",
+            "18.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "013|272580|2709545",
+          "distinct_values": [
+            "0.0",
+            "32.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "Plot_Numbe",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1564,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 8,
+      "group_vary_ratio": 0.005141388174807198,
+      "top_values": [
+        [
+          "95171072051",
+          210
+        ],
+        [
+          "96213032014",
+          190
+        ],
+        [
+          "95181046004",
+          187
+        ],
+        [
+          "95181065013",
+          187
+        ],
+        [
+          "96211093053",
+          184
+        ],
+        [
+          "95211040022",
+          182
+        ],
+        [
+          "96214092048",
+          180
+        ],
+        [
+          "96204037052",
+          175
+        ],
+        [
+          "96203090005",
+          173
+        ],
+        [
+          "95202047050",
+          172
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "045|329830|2760795",
+          "distinct_values": [
+            "97221012045",
+            "97221013000"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "006|311830|2712795",
+          "distinct_values": [
+            "97223095006",
+            "97223096002"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "052|266830|2643795",
+          "distinct_values": [
+            "96204037052",
+            "96204038035"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "054|272830|2643795",
+          "distinct_values": [
+            "96204039054",
+            "96204040055"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "013|272580|2709545",
+          "distinct_values": [
+            "96214009013",
+            "96214009044"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "Elevation",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1202,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 8,
+      "group_vary_ratio": 0.005141388174807198,
+      "top_values": [
+        [
+          "0.0",
+          1425
+        ],
+        [
+          "1490.0",
+          323
+        ],
+        [
+          "1912.0",
+          285
+        ],
+        [
+          "2086.0",
+          256
+        ],
+        [
+          "1510.0",
+          255
+        ],
+        [
+          "1800.0",
+          250
+        ],
+        [
+          "2052.0",
+          245
+        ],
+        [
+          "2148.0",
+          238
+        ],
+        [
+          "495.0",
+          236
+        ],
+        [
+          "1539.0",
+          233
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "045|329830|2760795",
+          "distinct_values": [
+            "0.0",
+            "411.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "006|311830|2712795",
+          "distinct_values": [
+            "0.0",
+            "1912.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "052|266830|2643795",
+          "distinct_values": [
+            "0.0",
+            "2622.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "054|272830|2643795",
+          "distinct_values": [
+            "0.0",
+            "1894.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "013|272580|2709545",
+          "distinct_values": [
+            "0.0",
+            "2625.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "Terrain",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 8,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 4,
+      "group_vary_ratio": 0.002570694087403599,
+      "top_values": [
+        [
+          "5.0",
+          47132
+        ],
+        [
+          "0.0",
+          25016
+        ],
+        [
+          "7.0",
+          9826
+        ],
+        [
+          "6.0",
+          2758
+        ],
+        [
+          "4.0",
+          1186
+        ],
+        [
+          "2.0",
+          328
+        ],
+        [
+          "1.0",
+          32
+        ],
+        [
+          "3.0",
+          28
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "045|329830|2760795",
+          "distinct_values": [
+            "0.0",
+            "6.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "006|311830|2712795",
+          "distinct_values": [
+            "0.0",
+            "6.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "052|266830|2643795",
+          "distinct_values": [
+            "0.0",
+            "5.0"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "035|242830|2550795",
+          "distinct_values": [
+            "0.0",
+            "5.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "District_O",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 8,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 2,
+      "group_vary_ratio": 0.0012853470437017994,
+      "top_values": [
+        [
+          "Taitung",
+          16817
+        ],
+        [
+          "Hualien",
+          12613
+        ],
+        [
+          "Nantou",
+          11634
+        ],
+        [
+          "Hsinchu",
+          10829
+        ],
+        [
+          "Luodong",
+          10580
+        ],
+        [
+          "Pingtung",
+          10482
+        ],
+        [
+          "Dongshih",
+          7811
+        ],
+        [
+          "Chiayi",
+          5540
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "013|272580|2709545",
+          "distinct_values": [
+            "Dongshih",
+            "Hsinchu"
+          ],
+          "distinct_count": 2
+        },
+        {
+          "group_key": "012|248830|2562795",
+          "distinct_values": [
+            "Pingtung",
+            "Taitung"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "SampleID",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1557,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "96204037052",
+          237
+        ],
+        [
+          "95171072051",
+          210
+        ],
+        [
+          "96213032014",
+          190
+        ],
+        [
+          "95181046004",
+          187
+        ],
+        [
+          "95181065013",
+          187
+        ],
+        [
+          "96211093053",
+          184
+        ],
+        [
+          "95211040022",
+          182
+        ],
+        [
+          "96214092048",
+          180
+        ],
+        [
+          "96203090005",
+          173
+        ],
+        [
+          "95202047050",
+          172
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "95172074041",
+            "95172082041"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "流水號",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1557,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "660.0",
+          237
+        ],
+        [
+          "1068.0",
+          210
+        ],
+        [
+          "437.0",
+          190
+        ],
+        [
+          "1093.0",
+          187
+        ],
+        [
+          "1102.0",
+          187
+        ],
+        [
+          "413.0",
+          184
+        ],
+        [
+          "202.0",
+          182
+        ],
+        [
+          "508.0",
+          180
+        ],
+        [
+          "1458.0",
+          173
+        ],
+        [
+          "545.0",
+          172
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "870.0",
+            "872.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "CO2_ha1",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1545,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "248.79",
+          240
+        ],
+        [
+          "344.37",
+          237
+        ],
+        [
+          "369.99",
+          210
+        ],
+        [
+          "885.39",
+          190
+        ],
+        [
+          "753.67",
+          187
+        ],
+        [
+          "1151.72",
+          187
+        ],
+        [
+          "323.23",
+          184
+        ],
+        [
+          "268.99",
+          180
+        ],
+        [
+          "1328.0",
+          173
+        ],
+        [
+          "260.71",
+          172
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "231.86",
+            "268.85"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "基本圖圖號",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1543,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "96204037",
+          237
+        ],
+        [
+          "95171072",
+          210
+        ],
+        [
+          "96213032",
+          190
+        ],
+        [
+          "95181046",
+          187
+        ],
+        [
+          "95181065",
+          187
+        ],
+        [
+          "96211093",
+          184
+        ],
+        [
+          "95211040",
+          182
+        ],
+        [
+          "95182052",
+          182
+        ],
+        [
+          "96214092",
+          180
+        ],
+        [
+          "95183060",
+          177
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "95172074",
+            "95172082"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "vol_ha",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1536,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "297.89",
+          237
+        ],
+        [
+          "199.03",
+          210
+        ],
+        [
+          "357.2",
+          200
+        ],
+        [
+          "648.15",
+          190
+        ],
+        [
+          "520.24",
+          187
+        ],
+        [
+          "860.41",
+          187
+        ],
+        [
+          "273.34",
+          184
+        ],
+        [
+          "180.42",
+          182
+        ],
+        [
+          "157.71",
+          180
+        ],
+        [
+          "1094.17",
+          173
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "134.94",
+            "154.02"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "SBA_ha",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1410,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "52.78",
+          306
+        ],
+        [
+          "32.04",
+          294
+        ],
+        [
+          "61.4",
+          258
+        ],
+        [
+          "47.69",
+          249
+        ],
+        [
+          "61.97",
+          237
+        ],
+        [
+          "64.85",
+          231
+        ],
+        [
+          "36.28",
+          218
+        ],
+        [
+          "50.22",
+          211
+        ],
+        [
+          "36.75",
+          210
+        ],
+        [
+          "24.04",
+          205
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "26.28",
+            "34.01"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "樣區座標Y",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1406,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "2550795.0",
+          292
+        ],
+        [
+          "2643798.0",
+          272
+        ],
+        [
+          "2685791.0",
+          255
+        ],
+        [
+          "2682795.0",
+          248
+        ],
+        [
+          "2625801.0",
+          246
+        ],
+        [
+          "2697793.0",
+          237
+        ],
+        [
+          "2694795.0",
+          233
+        ],
+        [
+          "2754792.0",
+          227
+        ],
+        [
+          "2574802.0",
+          227
+        ],
+        [
+          "2712544.0",
+          224
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "2436789.0",
+            "2436795.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "CO2_ha",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1328,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "18.43",
+          243
+        ],
+        [
+          "9.44",
+          242
+        ],
+        [
+          "12.44",
+          240
+        ],
+        [
+          "13.45",
+          240
+        ],
+        [
+          "24.73",
+          240
+        ],
+        [
+          "17.22",
+          237
+        ],
+        [
+          "11.53",
+          225
+        ],
+        [
+          "9.78",
+          223
+        ],
+        [
+          "57.59",
+          218
+        ],
+        [
+          "16.18",
+          217
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "11.59",
+            "13.44"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "樣區Vol",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1241,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "11.02",
+          315
+        ],
+        [
+          "5.38",
+          300
+        ],
+        [
+          "6.71",
+          284
+        ],
+        [
+          "9.94",
+          270
+        ],
+        [
+          "8.42",
+          269
+        ],
+        [
+          "20.28",
+          268
+        ],
+        [
+          "21.27",
+          268
+        ],
+        [
+          "11.81",
+          265
+        ],
+        [
+          "7.03",
+          252
+        ],
+        [
+          "6.19",
+          250
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "6.75",
+            "7.7"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "樣區座標X",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1215,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "227830.0",
+          477
+        ],
+        [
+          "233830.0",
+          464
+        ],
+        [
+          "236828.0",
+          325
+        ],
+        [
+          "266836.0",
+          313
+        ],
+        [
+          "230834.0",
+          304
+        ],
+        [
+          "260831.0",
+          295
+        ],
+        [
+          "269830.0",
+          284
+        ],
+        [
+          "281830.0",
+          269
+        ],
+        [
+          "230820.0",
+          267
+        ],
+        [
+          "263832.0",
+          262
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "227827.0",
+            "227830.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "調查日期",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 748,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "980923",
+          593
+        ],
+        [
+          "971105",
+          548
+        ],
+        [
+          "970723",
+          506
+        ],
+        [
+          "980218",
+          505
+        ],
+        [
+          "980826",
+          478
+        ],
+        [
+          "980514",
+          467
+        ],
+        [
+          "971106",
+          430
+        ],
+        [
+          "970909",
+          423
+        ],
+        [
+          "980428",
+          420
+        ],
+        [
+          "980513",
+          419
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "970702",
+            "970723"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "樣區BA",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 502,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "1.6",
+          860
+        ],
+        [
+          "1.49",
+          663
+        ],
+        [
+          "2.64",
+          643
+        ],
+        [
+          "1.81",
+          606
+        ],
+        [
+          "1.71",
+          604
+        ],
+        [
+          "2.11",
+          597
+        ],
+        [
+          "1.94",
+          541
+        ],
+        [
+          "1.08",
+          530
+        ],
+        [
+          "1.76",
+          529
+        ],
+        [
+          "2.96",
+          522
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "1.31",
+            "1.7"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "方位角",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 344,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "310.0",
+          1175
+        ],
+        [
+          "255.0",
+          1173
+        ],
+        [
+          "270.0",
+          1056
+        ],
+        [
+          "105.0",
+          959
+        ],
+        [
+          "125.0",
+          847
+        ],
+        [
+          "5.0",
+          815
+        ],
+        [
+          "95.0",
+          812
+        ],
+        [
+          "180.0",
+          801
+        ],
+        [
+          "165.0",
+          772
+        ],
+        [
+          "120.0",
+          764
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "150.0",
+            "270.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "B木樹種",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 328,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "紅檜",
+          3075
+        ],
+        [
+          "長葉木薑子",
+          2713
+        ],
+        [
+          "柳杉",
+          2537
+        ],
+        [
+          "台灣二葉松",
+          2350
+        ],
+        [
+          "九芎",
+          1973
+        ],
+        [
+          "紅楠",
+          1693
+        ],
+        [
+          "江某",
+          1663
+        ],
+        [
+          "香楠",
+          1661
+        ],
+        [
+          "台灣鐵杉",
+          1636
+        ],
+        [
+          "大葉楠",
+          1559
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "大頭茶",
+            "江某"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "A木樹種",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 324,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "柳杉",
+          3348
+        ],
+        [
+          "紅檜",
+          2831
+        ],
+        [
+          "錐果櫟",
+          2398
+        ],
+        [
+          "台灣二葉松",
+          2322
+        ],
+        [
+          "紅楠",
+          2165
+        ],
+        [
+          "長葉木薑子",
+          1976
+        ],
+        [
+          "鐵杉",
+          1891
+        ],
+        [
+          "台灣鐵杉",
+          1672
+        ],
+        [
+          "九芎",
+          1654
+        ],
+        [
+          "香楠",
+          1482
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "恆春楊梅",
+            "樹杞"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "系統座標Y",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 304,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "2550795.0",
+          1114
+        ],
+        [
+          "2670795.0",
+          1079
+        ],
+        [
+          "2682795.0",
+          1072
+        ],
+        [
+          "2676795.0",
+          973
+        ],
+        [
+          "2685795.0",
+          954
+        ],
+        [
+          "2679795.0",
+          952
+        ],
+        [
+          "2694795.0",
+          892
+        ],
+        [
+          "2667795.0",
+          867
+        ],
+        [
+          "2556795.0",
+          821
+        ],
+        [
+          "2565795.0",
+          816
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "2436789.0",
+            "2436795.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "株_ha",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 159,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "920.0",
+          1564
+        ],
+        [
+          "1060.0",
+          1537
+        ],
+        [
+          "1220.0",
+          1524
+        ],
+        [
+          "1300.0",
+          1515
+        ],
+        [
+          "880.0",
+          1495
+        ],
+        [
+          "1100.0",
+          1425
+        ],
+        [
+          "1000.0",
+          1402
+        ],
+        [
+          "1140.0",
+          1366
+        ],
+        [
+          "1240.0",
+          1364
+        ],
+        [
+          "1160.0",
+          1334
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "1000.0",
+            "3240.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "樣木數",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 157,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "46.0",
+          1564
+        ],
+        [
+          "53.0",
+          1537
+        ],
+        [
+          "61.0",
+          1524
+        ],
+        [
+          "65.0",
+          1515
+        ],
+        [
+          "44.0",
+          1495
+        ],
+        [
+          "55.0",
+          1425
+        ],
+        [
+          "50.0",
+          1402
+        ],
+        [
+          "57.0",
+          1366
+        ],
+        [
+          "62.0",
+          1364
+        ],
+        [
+          "70.0",
+          1328
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "162.0",
+            "50.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "系統座標X",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 146,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "248830.0",
+          2913
+        ],
+        [
+          "251830.0",
+          2832
+        ],
+        [
+          "257830.0",
+          2500
+        ],
+        [
+          "254830.0",
+          2329
+        ],
+        [
+          "245830.0",
+          2236
+        ],
+        [
+          "269830.0",
+          1962
+        ],
+        [
+          "239830.0",
+          1947
+        ],
+        [
+          "230830.0",
+          1924
+        ],
+        [
+          "263830.0",
+          1917
+        ],
+        [
+          "260830.0",
+          1869
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "227827.0",
+            "227830.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "坡度",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 63,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "30.0",
+          6340
+        ],
+        [
+          "40.0",
+          6232
+        ],
+        [
+          "35.0",
+          4859
+        ],
+        [
+          "38.0",
+          4006
+        ],
+        [
+          "32.0",
+          3624
+        ],
+        [
+          "33.0",
+          3445
+        ],
+        [
+          "42.0",
+          3016
+        ],
+        [
+          "20.0",
+          2944
+        ],
+        [
+          "45.0",
+          2879
+        ],
+        [
+          "34.0",
+          2822
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "13.0",
+            "15.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "地被型態",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 8,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "0.0",
+          25314
+        ],
+        [
+          "5.0",
+          15868
+        ],
+        [
+          "6.0",
+          14723
+        ],
+        [
+          "2.0",
+          10683
+        ],
+        [
+          "3.0",
+          10228
+        ],
+        [
+          "1.0",
+          5770
+        ],
+        [
+          "4.0",
+          3103
+        ],
+        [
+          "7.0",
+          617
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "1.0",
+            "3.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "樹冠密度",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 6,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 1,
+      "group_vary_ratio": 0.0006426735218508997,
+      "top_values": [
+        [
+          "3.0",
+          33887
+        ],
+        [
+          "0.0",
+          22080
+        ],
+        [
+          "4.0",
+          15821
+        ],
+        [
+          "2.0",
+          10945
+        ],
+        [
+          "1.0",
+          2853
+        ],
+        [
+          "5.0",
+          720
+        ]
+      ],
+      "group_distinct_examples": [
+        {
+          "group_key": "041|227830|2436795",
+          "distinct_values": [
+            "3.0",
+            "4.0"
+          ],
+          "distinct_count": 2
+        }
+      ],
+      "classification": "mixed_or_need_review"
+    },
+    {
+      "field_name": "SampleID1",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1550,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0",
+          288
+        ],
+        [
+          "96204037052",
+          237
+        ],
+        [
+          "95172082041",
+          212
+        ],
+        [
+          "95171072051",
+          210
+        ],
+        [
+          "96213032014",
+          190
+        ],
+        [
+          "95181046004",
+          187
+        ],
+        [
+          "95181065013",
+          187
+        ],
+        [
+          "96211093053",
+          184
+        ],
+        [
+          "95211040022",
+          182
+        ],
+        [
+          "96214092048",
+          180
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "FrameID_1",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1539,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0",
+          288
+        ],
+        [
+          "96204037",
+          237
+        ],
+        [
+          "95172082",
+          212
+        ],
+        [
+          "95171072",
+          210
+        ],
+        [
+          "96213032",
+          190
+        ],
+        [
+          "95181046",
+          187
+        ],
+        [
+          "95181065",
+          187
+        ],
+        [
+          "96211093",
+          184
+        ],
+        [
+          "95211040",
+          182
+        ],
+        [
+          "95182052",
+          182
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "FrameID",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1471,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "96221B05",
+          296
+        ],
+        [
+          "95171082",
+          279
+        ],
+        [
+          "96221B04",
+          269
+        ],
+        [
+          "96211093",
+          254
+        ],
+        [
+          "95171064",
+          240
+        ],
+        [
+          "96204037",
+          237
+        ],
+        [
+          "95172082",
+          212
+        ],
+        [
+          "96214068",
+          193
+        ],
+        [
+          "97224045",
+          190
+        ],
+        [
+          "96213032",
+          190
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "海拔",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1206,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.0",
+          508
+        ],
+        [
+          "1490.0",
+          323
+        ],
+        [
+          "1912.0",
+          305
+        ],
+        [
+          "2086.0",
+          256
+        ],
+        [
+          "1510.0",
+          255
+        ],
+        [
+          "1800.0",
+          250
+        ],
+        [
+          "2052.0",
+          245
+        ],
+        [
+          "2148.0",
+          238
+        ],
+        [
+          "2622.0",
+          237
+        ],
+        [
+          "495.0",
+          236
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "BlkID",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1076,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "L1_A08_2009_08_24_01_16_RGBB16A.sup/L1_A08_2009_08_24_01_16_RGBN00A.sup",
+          758
+        ],
+        [
+          "L1_A03_2009_09_05_02_37_RGBB16A.sup/L1_A03_2009_09_05_02_37_RGBN00A.sup",
+          689
+        ],
+        [
+          "L1_A15_2009_08_28_01_34_RGBB16A.sup/L1_A15_2009_08_28_01_34_RGBN00A.sup",
+          675
+        ],
+        [
+          "L1_A03_2009_09_07_03_18_RGBB16A.sup/L1_A03_2009_09_07_03_18_RGBN00A.sup",
+          609
+        ],
+        [
+          "L1_A22_2009_09_06_02_02_RGBB16A.sup/L1_A22_2009_09_06_02_02_RGBN00A.sup",
+          590
+        ],
+        [
+          "L1_A09_2009_01_18_03_26_RGBN00A.sup/L1_A09_2009_01_18_03_26_RGBB16A.sup",
+          577
+        ],
+        [
+          "L1_A04_2009_09_05_02_51_RGBN00A.sup/L1_A04_2009_09_05_02_51_RGBB16A.sup",
+          571
+        ],
+        [
+          "L1_A07_2009_02_23_04_14_RGBN00A.sup/L1_A07_2009_02_23_04_14_RGBB16A.sup",
+          556
+        ],
+        [
+          "L1_A02_2009_09_05_02_24_RGBB16A.sup/L1_A02_2009_09_05_02_24_RGBN00A.sup",
+          548
+        ],
+        [
+          "L1_A03_2009_02_11_03_57_RGBB16A.sup/L1_A03_2009_02_11_03_57_RGBN00A.sup",
+          547
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "BlkID_1",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1007,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0",
+          1359
+        ],
+        [
+          "L1_A08_2009_08_24_01_16_RGBB16A.sup/L1_A08_2009_08_24_01_16_RGBN00A.sup",
+          848
+        ],
+        [
+          "L1_A03_2009_09_07_03_18_RGBB16A.sup/L1_A03_2009_09_07_03_18_RGBN00A.sup",
+          768
+        ],
+        [
+          "L1_A22_2009_09_06_02_02_RGBN00A.sup/L1_A22_2009_09_06_02_02_RGBB16A.sup",
+          732
+        ],
+        [
+          "L1_A03_2009_09_05_02_37_RGBB16A.sup/L1_A03_2009_09_05_02_37_RGBN00A.sup",
+          666
+        ],
+        [
+          "L1_A09_2009_01_18_03_26_RGBN00A.sup/L1_A09_2009_01_18_03_26_RGBB16A.sup",
+          641
+        ],
+        [
+          "L1_A37_2009_08_22_02_33_RGBB16A.sup/L1_A37_2009_08_22_02_33_RGBN00A.sup",
+          575
+        ],
+        [
+          "L1_A02_2009_09_05_02_24_RGBB16A.sup/L1_A02_2009_09_05_02_24_RGBN00A.sup",
+          571
+        ],
+        [
+          "L1_A23_2009_02_23_04_39_RGBB16A.sup/L1_A23_2009_02_23_04_39_RGBN00A.sup",
+          562
+        ],
+        [
+          "L1_A03_2009_02_11_03_57_RGBB16A.sup/L1_A03_2009_02_11_03_57_RGBN00A.sup",
+          547
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "DTIME",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 770,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "40609.0",
+          693
+        ],
+        [
+          "41282.0",
+          604
+        ],
+        [
+          "41162.0",
+          544
+        ],
+        [
+          "40792.0",
+          480
+        ],
+        [
+          "40898.0",
+          438
+        ],
+        [
+          "41563.0",
+          438
+        ],
+        [
+          "41038.0",
+          430
+        ],
+        [
+          "40987.0",
+          423
+        ],
+        [
+          "40981.0",
+          421
+        ],
+        [
+          "40669.0",
+          412
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "DTIME_1",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 719,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "41088.0",
+          718
+        ],
+        [
+          "41285.0",
+          628
+        ],
+        [
+          "40675.0",
+          606
+        ],
+        [
+          "0.0",
+          499
+        ],
+        [
+          "40982.0",
+          490
+        ],
+        [
+          "40919.0",
+          459
+        ],
+        [
+          "41150.0",
+          456
+        ],
+        [
+          "41025.0",
+          442
+        ],
+        [
+          "41410.0",
+          422
+        ],
+        [
+          "41171.0",
+          405
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "Height",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 550,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.0",
+          51081
+        ],
+        [
+          "14.67",
+          267
+        ],
+        [
+          "13.03",
+          246
+        ],
+        [
+          "7.69",
+          240
+        ],
+        [
+          "9.46",
+          237
+        ],
+        [
+          "9.38",
+          221
+        ],
+        [
+          "21.25",
+          215
+        ],
+        [
+          "8.99",
+          210
+        ],
+        [
+          "19.19",
+          201
+        ],
+        [
+          "7.29",
+          192
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "Crown",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 456,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.0",
+          51081
+        ],
+        [
+          "3.66",
+          418
+        ],
+        [
+          "4.06",
+          328
+        ],
+        [
+          "3.96",
+          327
+        ],
+        [
+          "3.3",
+          298
+        ],
+        [
+          "2.62",
+          287
+        ],
+        [
+          "3.04",
+          240
+        ],
+        [
+          "4.96",
+          239
+        ],
+        [
+          "5.64",
+          237
+        ],
+        [
+          "4.18",
+          234
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "BlockID",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 322,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "96214A02",
+          847
+        ],
+        [
+          "96214B01",
+          834
+        ],
+        [
+          "96211B02",
+          756
+        ],
+        [
+          "95181B03",
+          741
+        ],
+        [
+          "96222A05",
+          695
+        ],
+        [
+          "95172A02",
+          680
+        ],
+        [
+          "95202A04",
+          667
+        ],
+        [
+          "96193B02",
+          659
+        ],
+        [
+          "97224B03",
+          644
+        ],
+        [
+          "95171A02",
+          638
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "BlockID_1",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 322,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "96214A02",
+          847
+        ],
+        [
+          "96214B01",
+          834
+        ],
+        [
+          "96211B02",
+          756
+        ],
+        [
+          "95181B03",
+          741
+        ],
+        [
+          "95174A05",
+          737
+        ],
+        [
+          "96222A05",
+          695
+        ],
+        [
+          "95183B05",
+          695
+        ],
+        [
+          "95202A05",
+          682
+        ],
+        [
+          "95172A02",
+          680
+        ],
+        [
+          "96193B02",
+          659
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "Y_Coord",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 317,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "2550795",
+          1173
+        ],
+        [
+          "2670795",
+          1079
+        ],
+        [
+          "2682795",
+          1072
+        ],
+        [
+          "2685795",
+          966
+        ],
+        [
+          "2679795",
+          952
+        ],
+        [
+          "2676795",
+          885
+        ],
+        [
+          "2694795",
+          848
+        ],
+        [
+          "2541795",
+          833
+        ],
+        [
+          "2640795",
+          801
+        ],
+        [
+          "2556795",
+          790
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "plot_group_key"
+    },
+    {
+      "field_name": "主要地被種",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 273,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "無",
+          8033
+        ],
+        [
+          "冷清草",
+          7256
+        ],
+        [
+          "玉山箭竹",
+          6000
+        ],
+        [
+          "0",
+          5089
+        ],
+        [
+          "芒草",
+          4047
+        ],
+        [
+          "廣葉鋸齒雙蓋蕨",
+          3768
+        ],
+        [
+          "箭竹",
+          3300
+        ],
+        [
+          "蕨類",
+          2239
+        ],
+        [
+          "雙蓋蕨",
+          2058
+        ],
+        [
+          "小灌木",
+          2011
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "次要地被種",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 230,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0",
+          23018
+        ],
+        [
+          "無",
+          17510
+        ],
+        [
+          "小灌木",
+          2674
+        ],
+        [
+          "廣葉鋸齒雙蓋蕨",
+          2190
+        ],
+        [
+          "蕨",
+          2169
+        ],
+        [
+          "冷清草",
+          2095
+        ],
+        [
+          "黃藤",
+          1761
+        ],
+        [
+          "蕨類",
+          1634
+        ],
+        [
+          "芒草",
+          1312
+        ],
+        [
+          "姑婆芋",
+          1179
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "X_Coord",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 170,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "248830",
+          2913
+        ],
+        [
+          "251830",
+          2832
+        ],
+        [
+          "257830",
+          2500
+        ],
+        [
+          "254830",
+          2329
+        ],
+        [
+          "245830",
+          2215
+        ],
+        [
+          "269830",
+          1962
+        ],
+        [
+          "239830",
+          1947
+        ],
+        [
+          "263830",
+          1912
+        ],
+        [
+          "230830",
+          1853
+        ],
+        [
+          "236830",
+          1815
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "plot_group_key"
+    },
+    {
+      "field_name": "VerifyHeig",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 109,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.0",
+          80193
+        ],
+        [
+          "22.98",
+          173
+        ],
+        [
+          "9.6",
+          140
+        ],
+        [
+          "7.82",
+          138
+        ],
+        [
+          "8.17",
+          133
+        ],
+        [
+          "12.59",
+          131
+        ],
+        [
+          "24.89",
+          128
+        ],
+        [
+          "9.37",
+          122
+        ],
+        [
+          "8.99",
+          112
+        ],
+        [
+          "6.88",
+          110
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "VerifyCrow",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 106,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.0",
+          80193
+        ],
+        [
+          "9.45",
+          173
+        ],
+        [
+          "2.47",
+          140
+        ],
+        [
+          "4.44",
+          138
+        ],
+        [
+          "4.9",
+          133
+        ],
+        [
+          "5.12",
+          131
+        ],
+        [
+          "2.94",
+          123
+        ],
+        [
+          "2.72",
+          122
+        ],
+        [
+          "2.71",
+          110
+        ],
+        [
+          "4.26",
+          108
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "樣點編號",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 65,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "008",
+          2223
+        ],
+        [
+          "052",
+          2221
+        ],
+        [
+          "001",
+          2122
+        ],
+        [
+          "047",
+          1986
+        ],
+        [
+          "019",
+          1966
+        ],
+        [
+          "053",
+          1963
+        ],
+        [
+          "013",
+          1957
+        ],
+        [
+          "051",
+          1885
+        ],
+        [
+          "025",
+          1843
+        ],
+        [
+          "006",
+          1839
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "plot_group_key"
+    },
+    {
+      "field_name": "含石率（％",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 52,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.0",
+          17591
+        ],
+        [
+          "10.0",
+          8130
+        ],
+        [
+          "30.0",
+          5606
+        ],
+        [
+          "20.0",
+          5450
+        ],
+        [
+          "5.0",
+          3983
+        ],
+        [
+          "2.0",
+          3903
+        ],
+        [
+          "4.0",
+          3175
+        ],
+        [
+          "50.0",
+          2965
+        ],
+        [
+          "40.0",
+          2877
+        ],
+        [
+          "3.0",
+          2799
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "腐植層型態",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 38,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0",
+          22741
+        ],
+        [
+          "2",
+          22491
+        ],
+        [
+          "3",
+          17123
+        ],
+        [
+          "3 (地表為凋落物堆積,凋落物濕腐,下層呈腐泥狀)",
+          7024
+        ],
+        [
+          "2 (地表為凋落物堆積,凋落物形體完整,無潮濕腐爛狀態)",
+          6579
+        ],
+        [
+          "3（地表為凋落物堆積，凋落物濕腐，下層呈腐泥狀）",
+          2130
+        ],
+        [
+          "1",
+          1607
+        ],
+        [
+          "0 (無)",
+          1272
+        ],
+        [
+          "2（地表為凋落物堆積，凋落物形體完整，無潮濕腐爛狀態）",
+          965
+        ],
+        [
+          "0，落葉",
+          924
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "UserName",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 35,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "陳淑儀",
+          7900
+        ],
+        [
+          "陳玉文",
+          7258
+        ],
+        [
+          "楊榮明",
+          6768
+        ],
+        [
+          "藍偉誠",
+          6500
+        ],
+        [
+          "賴淑麗",
+          5190
+        ],
+        [
+          "沈芳伶",
+          5054
+        ],
+        [
+          "方駿宸",
+          4881
+        ],
+        [
+          "郭聖平",
+          4598
+        ],
+        [
+          "蔡柏健",
+          4386
+        ],
+        [
+          "陳淑姿",
+          4122
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "UserName_1",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 35,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "陳淑儀",
+          8396
+        ],
+        [
+          "藍偉誠",
+          6701
+        ],
+        [
+          "陳玉文",
+          5660
+        ],
+        [
+          "方駿宸",
+          5129
+        ],
+        [
+          "賴淑麗",
+          4940
+        ],
+        [
+          "郭聖平",
+          4636
+        ],
+        [
+          "羅白娟",
+          4384
+        ],
+        [
+          "沈芳伶",
+          4369
+        ],
+        [
+          "蔡柏健",
+          4354
+        ],
+        [
+          "楊榮明",
+          4020
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "調查人員",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 31,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0",
+          55239
+        ],
+        [
+          "吳進華",
+          4264
+        ],
+        [
+          "黃俊銘",
+          3258
+        ],
+        [
+          "楊榮明",
+          2673
+        ],
+        [
+          "劉坤宗",
+          2457
+        ],
+        [
+          "曾德懋",
+          2315
+        ],
+        [
+          "莊建成",
+          1990
+        ],
+        [
+          "葉清旺",
+          1917
+        ],
+        [
+          "李祈德",
+          1900
+        ],
+        [
+          "楊佳如",
+          1686
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "林型小類",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 24,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "闊葉樹混淆林",
+          54752
+        ],
+        [
+          "針闊葉樹混淆林",
+          9434
+        ],
+        [
+          "天然松類",
+          3747
+        ],
+        [
+          "鐵杉林",
+          2974
+        ],
+        [
+          "冷杉林",
+          2012
+        ],
+        [
+          "柳杉人工林",
+          2005
+        ],
+        [
+          "天然檜木林",
+          1847
+        ],
+        [
+          "竹闊混淆林",
+          1704
+        ],
+        [
+          "松類人工林",
+          1619
+        ],
+        [
+          "其他闊葉人工林",
+          1530
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "likely_plot_level_field"
+    },
+    {
+      "field_name": "SlaveTreeI",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 22,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "-1",
+          33314
+        ],
+        [
+          "B600",
+          18113
+        ],
+        [
+          "A101",
+          8338
+        ],
+        [
+          "A106",
+          6653
+        ],
+        [
+          "B502",
+          4146
+        ],
+        [
+          "A113",
+          4054
+        ],
+        [
+          "C700",
+          3689
+        ],
+        [
+          "A118",
+          1976
+        ],
+        [
+          "A114",
+          1238
+        ],
+        [
+          "C800",
+          1055
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "MajorTreeI",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 21,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "B600",
+          60705
+        ],
+        [
+          "A106",
+          6888
+        ],
+        [
+          "A101",
+          4956
+        ],
+        [
+          "A113",
+          3548
+        ],
+        [
+          "A118",
+          2724
+        ],
+        [
+          "A114",
+          2012
+        ],
+        [
+          "A117",
+          1081
+        ],
+        [
+          "A119",
+          731
+        ],
+        [
+          "C700",
+          693
+        ],
+        [
+          "B502",
+          563
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "IPCCTypeID",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 18,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "3.0",
+          56103
+        ],
+        [
+          "1.0",
+          16353
+        ],
+        [
+          "5.0",
+          8534
+        ],
+        [
+          "7.0",
+          1636
+        ],
+        [
+          "61.0",
+          1149
+        ],
+        [
+          "42.0",
+          666
+        ],
+        [
+          "10.0",
+          353
+        ],
+        [
+          "33.0",
+          257
+        ],
+        [
+          "6.0",
+          244
+        ],
+        [
+          "9997.0",
+          237
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "MajorTreeP",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 18,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "100.0",
+          42930
+        ],
+        [
+          "95.0",
+          9485
+        ],
+        [
+          "90.0",
+          9269
+        ],
+        [
+          "80.0",
+          6361
+        ],
+        [
+          "60.0",
+          5810
+        ],
+        [
+          "70.0",
+          5467
+        ],
+        [
+          "50.0",
+          2256
+        ],
+        [
+          "85.0",
+          2020
+        ],
+        [
+          "65.0",
+          853
+        ],
+        [
+          "55.0",
+          788
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "SlaveTreeP",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 18,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.0",
+          42930
+        ],
+        [
+          "5.0",
+          9485
+        ],
+        [
+          "10.0",
+          9269
+        ],
+        [
+          "20.0",
+          6361
+        ],
+        [
+          "40.0",
+          5810
+        ],
+        [
+          "30.0",
+          5467
+        ],
+        [
+          "50.0",
+          2256
+        ],
+        [
+          "15.0",
+          2020
+        ],
+        [
+          "35.0",
+          853
+        ],
+        [
+          "45.0",
+          788
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "腐植層厚度",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 16,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.1",
+          31385
+        ],
+        [
+          "0.0",
+          24329
+        ],
+        [
+          "0.2",
+          14420
+        ],
+        [
+          "0.3",
+          10735
+        ],
+        [
+          "0.4",
+          2194
+        ],
+        [
+          "0.5",
+          1489
+        ],
+        [
+          "0.6",
+          479
+        ],
+        [
+          "2.0",
+          297
+        ],
+        [
+          "3.0",
+          234
+        ],
+        [
+          "0.8",
+          231
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "Closing",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 15,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "11",
+          47473
+        ],
+        [
+          "9",
+          12720
+        ],
+        [
+          "8",
+          5783
+        ],
+        [
+          "7",
+          5233
+        ],
+        [
+          "5",
+          2746
+        ],
+        [
+          "6",
+          2622
+        ],
+        [
+          "4",
+          2294
+        ],
+        [
+          "0",
+          1402
+        ],
+        [
+          "3",
+          1351
+        ],
+        [
+          "1",
+          1231
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "VerifyClos",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 14,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.0",
+          72140
+        ],
+        [
+          "11.0",
+          7408
+        ],
+        [
+          "9.0",
+          2172
+        ],
+        [
+          "8.0",
+          1522
+        ],
+        [
+          "7.0",
+          721
+        ],
+        [
+          "5.0",
+          579
+        ],
+        [
+          "6.0",
+          531
+        ],
+        [
+          "12.0",
+          470
+        ],
+        [
+          "4.0",
+          289
+        ],
+        [
+          "3.0",
+          230
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "DeptID_1",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 11,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "09",
+          16929
+        ],
+        [
+          "07",
+          13210
+        ],
+        [
+          "02",
+          10264
+        ],
+        [
+          "04",
+          9286
+        ],
+        [
+          "01",
+          9255
+        ],
+        [
+          "08",
+          7798
+        ],
+        [
+          "06",
+          7186
+        ],
+        [
+          "03",
+          6717
+        ],
+        [
+          "05",
+          5129
+        ],
+        [
+          "0",
+          486
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "likely_plot_level_field"
+    },
+    {
+      "field_name": "VerifyUs_1",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 11,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "徐新武",
+          16696
+        ],
+        [
+          "張孳鑫",
+          16053
+        ],
+        [
+          "蔡家銘",
+          12397
+        ],
+        [
+          "林雅苓",
+          11064
+        ],
+        [
+          "陳豐苙",
+          10847
+        ],
+        [
+          "蔡仲涵",
+          10576
+        ],
+        [
+          "0",
+          5569
+        ],
+        [
+          "傅淑瑋",
+          2312
+        ],
+        [
+          "劉啟斌",
+          734
+        ],
+        [
+          "賴淑麗",
+          32
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "DeptID",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 10,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "09",
+          17591
+        ],
+        [
+          "07",
+          13132
+        ],
+        [
+          "02",
+          9661
+        ],
+        [
+          "04",
+          9295
+        ],
+        [
+          "01",
+          8805
+        ],
+        [
+          "08",
+          7983
+        ],
+        [
+          "03",
+          6867
+        ],
+        [
+          "06",
+          6706
+        ],
+        [
+          "05",
+          4993
+        ],
+        [
+          "0",
+          1273
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "likely_plot_level_field"
+    },
+    {
+      "field_name": "DeptName",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 10,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "農航所",
+          18569
+        ],
+        [
+          "台東林管處",
+          13132
+        ],
+        [
+          "新竹林管處",
+          9661
+        ],
+        [
+          "南投林管處",
+          9344
+        ],
+        [
+          "羅東林管處",
+          8877
+        ],
+        [
+          "花蓮林管處",
+          8034
+        ],
+        [
+          "東勢林管處",
+          6867
+        ],
+        [
+          "屏東林管處",
+          6719
+        ],
+        [
+          "嘉義林管處",
+          4993
+        ],
+        [
+          "0",
+          110
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "likely_plot_level_field"
+    },
+    {
+      "field_name": "DeptName_1",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 10,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "農航所",
+          16929
+        ],
+        [
+          "台東林管處",
+          13210
+        ],
+        [
+          "新竹林管處",
+          10264
+        ],
+        [
+          "南投林管處",
+          9286
+        ],
+        [
+          "羅東林管處",
+          9255
+        ],
+        [
+          "花蓮林管處",
+          7798
+        ],
+        [
+          "屏東林管處",
+          7232
+        ],
+        [
+          "東勢林管處",
+          6717
+        ],
+        [
+          "嘉義林管處",
+          5129
+        ],
+        [
+          "0",
+          486
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "likely_plot_level_field"
+    },
+    {
+      "field_name": "FunctionTy",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 8,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "1100",
+          60087
+        ],
+        [
+          "2212",
+          8113
+        ],
+        [
+          "2221",
+          6274
+        ],
+        [
+          "2211",
+          5867
+        ],
+        [
+          "2222",
+          3741
+        ],
+        [
+          "1200",
+          1385
+        ],
+        [
+          "1300",
+          478
+        ],
+        [
+          "2100",
+          361
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "地形",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 8,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "5.0",
+          47559
+        ],
+        [
+          "0.0",
+          24215
+        ],
+        [
+          "7.0",
+          9907
+        ],
+        [
+          "6.0",
+          3034
+        ],
+        [
+          "4.0",
+          1203
+        ],
+        [
+          "2.0",
+          328
+        ],
+        [
+          "1.0",
+          32
+        ],
+        [
+          "3.0",
+          28
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "地被高度",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 8,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "3.0",
+          42387
+        ],
+        [
+          "2.0",
+          20065
+        ],
+        [
+          "4.0",
+          19157
+        ],
+        [
+          "1.0",
+          4028
+        ],
+        [
+          "0.0",
+          443
+        ],
+        [
+          "5.0",
+          143
+        ],
+        [
+          "6.0",
+          46
+        ],
+        [
+          "0.2",
+          37
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "林區",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 8,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "7.0",
+          16780
+        ],
+        [
+          "8.0",
+          12724
+        ],
+        [
+          "4.0",
+          11654
+        ],
+        [
+          "2.0",
+          10947
+        ],
+        [
+          "1.0",
+          10490
+        ],
+        [
+          "6.0",
+          10427
+        ],
+        [
+          "3.0",
+          7756
+        ],
+        [
+          "5.0",
+          5528
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "TypeName",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 6,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "闊葉樹林型",
+          57510
+        ],
+        [
+          "針葉樹林型",
+          17369
+        ],
+        [
+          "針闊葉樹混淆林",
+          9434
+        ],
+        [
+          "竹闊混淆林",
+          1704
+        ],
+        [
+          "竹林",
+          244
+        ],
+        [
+          "竹針混淆林",
+          45
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "地被密度",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 6,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.0",
+          24100
+        ],
+        [
+          "5.0",
+          18406
+        ],
+        [
+          "4.0",
+          17406
+        ],
+        [
+          "3.0",
+          13821
+        ],
+        [
+          "2.0",
+          8776
+        ],
+        [
+          "1.0",
+          3797
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "林型中類",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 6,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "闊葉樹林型",
+          57510
+        ],
+        [
+          "針葉樹林型",
+          17369
+        ],
+        [
+          "針闊葉樹混淆林",
+          9434
+        ],
+        [
+          "竹闊混淆林",
+          1704
+        ],
+        [
+          "竹林",
+          244
+        ],
+        [
+          "竹針混淆林",
+          45
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "likely_plot_level_field"
+    },
+    {
+      "field_name": "VerifyUs_2",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 5,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.0",
+          71812
+        ],
+        [
+          "138.0",
+          5430
+        ],
+        [
+          "139.0",
+          5262
+        ],
+        [
+          "165.0",
+          3543
+        ],
+        [
+          "133.0",
+          259
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "VerifyUs_3",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 5,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0",
+          71812
+        ],
+        [
+          "陳玉文",
+          5430
+        ],
+        [
+          "賴淑麗",
+          5262
+        ],
+        [
+          "陳雪卿",
+          3543
+        ],
+        [
+          "陳豐苙",
+          259
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "Area",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 3,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.05",
+          85762
+        ],
+        [
+          "0.1",
+          526
+        ],
+        [
+          "0.01",
+          18
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "MergeOnly",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 3,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "-1",
+          44712
+        ],
+        [
+          "1",
+          41530
+        ],
+        [
+          "0",
+          64
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "林型大類",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 3,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "天然林",
+          72137
+        ],
+        [
+          "人工林",
+          12176
+        ],
+        [
+          "竹林",
+          1993
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "likely_plot_level_field"
+    },
+    {
+      "field_name": "樣區面積",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 3,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.05",
+          85180
+        ],
+        [
+          "0.1",
+          656
+        ],
+        [
+          "0.01",
+          470
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "likely_plot_level_field"
+    },
+    {
+      "field_name": "Finished",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 2,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "1.0",
+          85820
+        ],
+        [
+          "0.0",
+          486
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "SType",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 2,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "1.0",
+          56246
+        ],
+        [
+          "0.0",
+          30060
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "VerifyDe_2",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 2,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0",
+          71812
+        ],
+        [
+          "09",
+          14494
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "VerifyDe_3",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 2,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0",
+          71812
+        ],
+        [
+          "農航所",
+          14494
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "VerifyFini",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 2,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0",
+          71812
+        ],
+        [
+          "1",
+          14494
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "VerifyPass",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 2,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "1",
+          82102
+        ],
+        [
+          "0",
+          4204
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "IPCCName",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "林地",
+          86306
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "VerifyVolu",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.0",
+          86306
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "Volumn",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.0",
+          86306
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "備註",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.0",
+          86306
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    },
+    {
+      "field_name": "備註_1",
+      "total_records": 86306,
+      "non_empty_count": 86306,
+      "empty_count": 0,
+      "unique_count": 1,
+      "group_non_empty_count": 1556,
+      "group_vary_count": 0,
+      "group_vary_ratio": 0.0,
+      "top_values": [
+        [
+          "0.0",
+          86306
+        ]
+      ],
+      "group_distinct_examples": [],
+      "classification": "constant_within_plot_group"
+    }
+  ]
+}
