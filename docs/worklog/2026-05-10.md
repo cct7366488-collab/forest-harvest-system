@@ -2,7 +2,7 @@
 
 ## 一、本次收工摘要
 
-今日收工：完成開工與收工工具腳本建立。
+今日收工：完成 NFI 後端資料流程、開工與收工工具腳本建立。
 
 ## 二、專案位置
 
@@ -14,7 +14,7 @@
 ## 三、Git 狀態
 
 - Branch：master
-- Commit：2b4d6ba
+- Commit：e6c5c57
 
 ### 收工前 Git status --short
 `	ext
@@ -23,6 +23,7 @@ working tree clean
 ",
 
 `	ext
+e6c5c57 Closing log 2026-05-10
 2b4d6ba Closing log 2026-05-10
 df85e8a Closing log 2026-05-10
 6a38adb Closing log for NFI backend phases
@@ -32,7 +33,6 @@ bd40bdb Refine NFI plot identifiers and grouped plot import
 7c2d996 Add core ORM APIs and NFI ETL preview
 948191b Remove Python cache file from repository
 99bbf88 Add plots API and database ORM
-b943817 Add core database schema design
 `",
 ",
 
@@ -55,4 +55,4 @@ Backend Phase 6：NFI trees / 子紀錄匯入策略
 
 ## 六、收工時間
 
-2026-05-10 16:25:12
+2026-05-10 16:27:36
