@@ -1,0 +1,238 @@
+{
+  "generated_at": "2026-05-10 14:51:51",
+  "datasets": {
+    "NFI3": {
+      "folder": "C:\\Projects\\forest-harvest-system\\data\\raw\\nfi\\nfi3",
+      "shapefile_count": 1,
+      "shapefiles": [
+        {
+          "file": "C:\\Projects\\forest-harvest-system\\data\\raw\\nfi\\nfi3\\第三次森林資源調查樣區\\第三次森林調查樣區97.shp",
+          "shape_type": "POINT",
+          "record_count": 3996,
+          "bbox": [
+            152000.0,
+            2425000.0,
+            350000.0,
+            2797000.0
+          ],
+          "fields": [
+            {
+              "name": "FID_",
+              "type": "N",
+              "size": 9,
+              "decimal": 0
+            },
+            {
+              "name": "AREA",
+              "type": "N",
+              "size": 13,
+              "decimal": 6
+            },
+            {
+              "name": "PERIMETER",
+              "type": "N",
+              "size": 13,
+              "decimal": 6
+            },
+            {
+              "name": "PLOT_",
+              "type": "N",
+              "size": 10,
+              "decimal": 0
+            },
+            {
+              "name": "PLOT_ID",
+              "type": "N",
+              "size": 10,
+              "decimal": 0
+            },
+            {
+              "name": "MAPNO",
+              "type": "N",
+              "size": 7,
+              "decimal": 0
+            },
+            {
+              "name": "PLOTNO",
+              "type": "N",
+              "size": 2,
+              "decimal": 0
+            },
+            {
+              "name": "RECORDER",
+              "type": "N",
+              "size": 1,
+              "decimal": 0
+            },
+            {
+              "name": "SURVEYOR",
+              "type": "N",
+              "size": 1,
+              "decimal": 0
+            },
+            {
+              "name": "DATE_",
+              "type": "N",
+              "size": 5,
+              "decimal": 0
+            },
+            {
+              "name": "ABSCISSA",
+              "type": "N",
+              "size": 5,
+              "decimal": 0
+            },
+            {
+              "name": "ORDINATE",
+              "type": "N",
+              "size": 6,
+              "decimal": 0
+            },
+            {
+              "name": "PLOTAREA",
+              "type": "N",
+              "size": 2,
+              "decimal": 0
+            },
+            {
+              "name": "ELEVATION",
+              "type": "N",
+              "size": 3,
+              "decimal": 0
+            },
+            {
+              "name": "SLOP",
+              "type": "N",
+              "size": 1,
+              "decimal": 0
+            },
+            {
+              "name": "ASPECT",
+              "type": "N",
+              "size": 4,
+              "decimal": 0
+            },
+            {
+              "name": "LANDUSE",
+              "type": "N",
+              "size": 2,
+              "decimal": 0
+            },
+            {
+              "name": "TERRAINS",
+              "type": "N",
+              "size": 4,
+              "decimal": 0
+            },
+            {
+              "name": "AGE",
+              "type": "N",
+              "size": 1,
+              "decimal": 0
+            },
+            {
+              "name": "DENSITY",
+              "type": "N",
+              "size": 4,
+              "decimal": 0
+            },
+            {
+              "name": "STAND",
+              "type": "N",
+              "size": 4,
+              "decimal": 0
+            },
+            {
+              "name": "MAINCOVER",
+              "type": "N",
+              "size": 4,
+              "decimal": 0
+            },
+            {
+              "name": "SECONDCOV",
+              "type": "N",
+              "size": 4,
+              "decimal": 0
+            },
+            {
+              "name": "COVDENSITY",
+              "type": "N",
+              "size": 4,
+              "decimal": 0
+            },
+            {
+              "name": "COVHEIGHT",
+              "type": "N",
+              "size": 4,
+              "decimal": 0
+            },
+            {
+              "name": "VOL",
+              "type": "N",
+              "size": 11,
+              "decimal": 0
+            },
+            {
+              "name": "ID",
+              "type": "N",
+              "size": 15,
+              "decimal": 0
+            },
+            {
+              "name": "S",
+              "type": "N",
+              "size": 10,
+              "decimal": 0
+            },
+            {
+              "name": "N",
+              "type": "N",
+              "size": 10,
+              "decimal": 0
+            },
+            {
+              "name": "SUMVOL",
+              "type": "N",
+              "size": 16,
+              "decimal": 4
+            },
+            {
+              "name": "DINDEX",
+              "type": "N",
+              "size": 16,
+              "decimal": 4
+            },
+            {
+              "name": "SIMPSON",
+              "type": "N",
+              "size": 16,
+              "decimal": 4
+            },
+            {
+              "name": "SHANNON",
+              "type": "N",
+              "size": 16,
+              "decimal": 4
+            },
+            {
+              "name": "E",
+              "type": "N",
+              "size": 16,
+              "decimal": 4
+            }
+          ]
+        }
+      ]
+    },
+    "NFI4": {
+      "folder": "C:\\Projects\\forest-harvest-system\\data\\raw\\nfi\\nfi4",
+      "shapefile_count": 1,
+      "shapefiles": [
+        {
+          "file": "C:\\Projects\\forest-harvest-system\\data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData.shp",
+          "error": "'utf-8' codec can't decode byte 0xac in position 0: invalid start byte"
+        }
+      ]
+    }
+  }
+}
