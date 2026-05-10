@@ -1,0 +1,1868 @@
+{
+  "purpose": "NFI4 subrecords to trees field mapping and conversion rules",
+  "source_table": "nfi4_subrecords",
+  "target_table": "trees",
+  "sample_subrecord_count": 20,
+  "raw_attribute_reports": [
+    {
+      "field_name": "Tree_Numbe",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 20,
+      "sample_values": [
+        "10100861.0",
+        "10100862.0",
+        "10100863.0",
+        "10100864.0",
+        "10100865.0",
+        "10100866.0",
+        "10100867.0",
+        "10100868.0"
+      ]
+    },
+    {
+      "field_name": "Volume",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 20,
+      "sample_values": [
+        "3.057318",
+        "0.134308",
+        "0.021694",
+        "0.013928",
+        "3.076389",
+        "0.01397",
+        "1.269304",
+        "0.020418"
+      ]
+    },
+    {
+      "field_name": "Branch_Hei",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 19,
+      "sample_values": [
+        "16.0",
+        "8.5",
+        "6.2",
+        "4.0",
+        "18.5",
+        "2.6",
+        "20.0",
+        "3.0"
+      ]
+    },
+    {
+      "field_name": "Tree_X",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 19,
+      "sample_values": [
+        "287611.541478",
+        "287610.74528",
+        "287608.075204",
+        "287605.798366",
+        "287605.396833",
+        "287605.914312",
+        "287610.697027",
+        "287608.859089"
+      ]
+    },
+    {
+      "field_name": "Tree_Y",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 19,
+      "sample_values": [
+        "2710093.420424",
+        "2710093.539937",
+        "2710092.847963",
+        "2710094.396319",
+        "2710093.284147",
+        "2710091.738071",
+        "2710090.26889",
+        "2710084.568724"
+      ]
+    },
+    {
+      "field_name": "DBH",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 18,
+      "sample_values": [
+        "56.1",
+        "17.8",
+        "8.5",
+        "7.4",
+        "54.8",
+        "7.8",
+        "35.2",
+        "8.5"
+      ]
+    },
+    {
+      "field_name": "Tree_Heigh",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 18,
+      "sample_values": [
+        "27.5",
+        "12.0",
+        "8.5",
+        "7.2",
+        "29.0",
+        "6.5",
+        "29.0",
+        "8.0"
+      ]
+    },
+    {
+      "field_name": "Y_axis",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 18,
+      "sample_values": [
+        "2.1",
+        "2.2",
+        "3.7",
+        "2.7",
+        "4.0",
+        "5.5",
+        "5.7",
+        "12.3"
+      ]
+    },
+    {
+      "field_name": "X_asis",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 17,
+      "sample_values": [
+        "1.0",
+        "1.8",
+        "4.2",
+        "6.8",
+        "6.9",
+        "6.0",
+        "1.0",
+        "1.3"
+      ]
+    },
+    {
+      "field_name": "Scientific",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 9,
+      "sample_values": [
+        "Chamaecyparis formosensis Matsum.",
+        "Chamaecyparis obtusa Sieb. & Zucc. var. formosana (Hayata) Rehder",
+        "Litsea elongata (Wall. ex Nees) Benth. & Hook. f. var. mushaensis (Hayata) J. C. Liao",
+        "Taiwania cryptomerioides Hayata",
+        "Chamaecyparis obtusa Sieb. & Zucc. var. formosana (Hayata) Rehder",
+        "Chamaecyparis obtusa Sieb. & Zucc. var. formosana (Hayata) Rehder",
+        "Chamaecyparis obtusa Sieb. & Zucc. var. formosana (Hayata) Rehder",
+        "Neolitsea acuminatissima (Hayata) Kanehira & Sasaki"
+      ]
+    },
+    {
+      "field_name": "Tree_Chi_N",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 9,
+      "sample_values": [
+        "臺灣紅檜",
+        "臺灣扁柏",
+        "霧社木薑子",
+        "臺灣杉",
+        "臺灣扁柏",
+        "臺灣扁柏",
+        "臺灣扁柏",
+        "高山新木薑子"
+      ]
+    },
+    {
+      "field_name": "Tree_En_Na",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 9,
+      "sample_values": [
+        "Red Cypress",
+        "Yellow Cypress",
+        "Wusheh actinodaphne",
+        "Taiwania cryptomerioides",
+        "Yellow Cypress",
+        "Yellow Cypress",
+        "Yellow Cypress",
+        "Acuminate-leaved neolitsea"
+      ]
+    },
+    {
+      "field_name": "Record_Typ",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 2,
+      "sample_values": [
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0"
+      ]
+    },
+    {
+      "field_name": "Tree_Crown",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 2,
+      "sample_values": [
+        "2.0",
+        "3.0",
+        "3.0",
+        "3.0",
+        "2.0",
+        "3.0",
+        "2.0",
+        "3.0"
+      ]
+    },
+    {
+      "field_name": "Area",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "0.05",
+        "0.05",
+        "0.05",
+        "0.05",
+        "0.05",
+        "0.05",
+        "0.05",
+        "0.05"
+      ]
+    },
+    {
+      "field_name": "Aspect",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "195.0",
+        "195.0",
+        "195.0",
+        "195.0",
+        "195.0",
+        "195.0",
+        "195.0",
+        "195.0"
+      ]
+    },
+    {
+      "field_name": "A木樹種",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "台灣扁柏",
+        "台灣扁柏",
+        "台灣扁柏",
+        "台灣扁柏",
+        "台灣扁柏",
+        "台灣扁柏",
+        "台灣扁柏",
+        "台灣扁柏"
+      ]
+    },
+    {
+      "field_name": "BlkID",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "100115g_55~0093_rgb.sup/100115g_55~0092_rgb.sup",
+        "100115g_55~0093_rgb.sup/100115g_55~0092_rgb.sup",
+        "100115g_55~0093_rgb.sup/100115g_55~0092_rgb.sup",
+        "100115g_55~0093_rgb.sup/100115g_55~0092_rgb.sup",
+        "100115g_55~0093_rgb.sup/100115g_55~0092_rgb.sup",
+        "100115g_55~0093_rgb.sup/100115g_55~0092_rgb.sup",
+        "100115g_55~0093_rgb.sup/100115g_55~0092_rgb.sup",
+        "100115g_55~0093_rgb.sup/100115g_55~0092_rgb.sup"
+      ]
+    },
+    {
+      "field_name": "BlkID_1",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "100115g_55~0093_rgb.sup/100115g_55~0092_rgb.sup",
+        "100115g_55~0093_rgb.sup/100115g_55~0092_rgb.sup",
+        "100115g_55~0093_rgb.sup/100115g_55~0092_rgb.sup",
+        "100115g_55~0093_rgb.sup/100115g_55~0092_rgb.sup",
+        "100115g_55~0093_rgb.sup/100115g_55~0092_rgb.sup",
+        "100115g_55~0093_rgb.sup/100115g_55~0092_rgb.sup",
+        "100115g_55~0093_rgb.sup/100115g_55~0092_rgb.sup",
+        "100115g_55~0093_rgb.sup/100115g_55~0092_rgb.sup"
+      ]
+    },
+    {
+      "field_name": "BlockID",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "96211A03",
+        "96211A03",
+        "96211A03",
+        "96211A03",
+        "96211A03",
+        "96211A03",
+        "96211A03",
+        "96211A03"
+      ]
+    },
+    {
+      "field_name": "BlockID_1",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "96211A03",
+        "96211A03",
+        "96211A03",
+        "96211A03",
+        "96211A03",
+        "96211A03",
+        "96211A03",
+        "96211A03"
+      ]
+    },
+    {
+      "field_name": "B木樹種",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "昆欄樹,雲葉,水柯",
+        "昆欄樹,雲葉,水柯",
+        "昆欄樹,雲葉,水柯",
+        "昆欄樹,雲葉,水柯",
+        "昆欄樹,雲葉,水柯",
+        "昆欄樹,雲葉,水柯",
+        "昆欄樹,雲葉,水柯",
+        "昆欄樹,雲葉,水柯"
+      ]
+    },
+    {
+      "field_name": "CO2_ha",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "40.06",
+        "40.06",
+        "40.06",
+        "40.06",
+        "40.06",
+        "40.06",
+        "40.06",
+        "40.06"
+      ]
+    },
+    {
+      "field_name": "CO2_ha1",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "801.16",
+        "801.16",
+        "801.16",
+        "801.16",
+        "801.16",
+        "801.16",
+        "801.16",
+        "801.16"
+      ]
+    },
+    {
+      "field_name": "Closing",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+      ]
+    },
+    {
+      "field_name": "Crown",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "9.29",
+        "9.29",
+        "9.29",
+        "9.29",
+        "9.29",
+        "9.29",
+        "9.29",
+        "9.29"
+      ]
+    },
+    {
+      "field_name": "DTIME",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "40955.0",
+        "40955.0",
+        "40955.0",
+        "40955.0",
+        "40955.0",
+        "40955.0",
+        "40955.0",
+        "40955.0"
+      ]
+    },
+    {
+      "field_name": "DTIME_1",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "40956.0",
+        "40956.0",
+        "40956.0",
+        "40956.0",
+        "40956.0",
+        "40956.0",
+        "40956.0",
+        "40956.0"
+      ]
+    },
+    {
+      "field_name": "DeptID",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09"
+      ]
+    },
+    {
+      "field_name": "DeptID_1",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09"
+      ]
+    },
+    {
+      "field_name": "DeptName",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "農航所",
+        "農航所",
+        "農航所",
+        "農航所",
+        "農航所",
+        "農航所",
+        "農航所",
+        "農航所"
+      ]
+    },
+    {
+      "field_name": "DeptName_1",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "農航所",
+        "農航所",
+        "農航所",
+        "農航所",
+        "農航所",
+        "農航所",
+        "農航所",
+        "農航所"
+      ]
+    },
+    {
+      "field_name": "District_O",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "Luodong",
+        "Luodong",
+        "Luodong",
+        "Luodong",
+        "Luodong",
+        "Luodong",
+        "Luodong",
+        "Luodong"
+      ]
+    },
+    {
+      "field_name": "Elevation",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "2200.0",
+        "2200.0",
+        "2200.0",
+        "2200.0",
+        "2200.0",
+        "2200.0",
+        "2200.0",
+        "2200.0"
+      ]
+    },
+    {
+      "field_name": "Finished",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0"
+      ]
+    },
+    {
+      "field_name": "FrameID",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "96211005",
+        "96211005",
+        "96211005",
+        "96211005",
+        "96211005",
+        "96211005",
+        "96211005",
+        "96211005"
+      ]
+    },
+    {
+      "field_name": "FrameID_1",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "96211005",
+        "96211005",
+        "96211005",
+        "96211005",
+        "96211005",
+        "96211005",
+        "96211005",
+        "96211005"
+      ]
+    },
+    {
+      "field_name": "FunctionTy",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "1100",
+        "1100",
+        "1100",
+        "1100",
+        "1100",
+        "1100",
+        "1100",
+        "1100"
+      ]
+    },
+    {
+      "field_name": "Height",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "24.47",
+        "24.47",
+        "24.47",
+        "24.47",
+        "24.47",
+        "24.47",
+        "24.47",
+        "24.47"
+      ]
+    },
+    {
+      "field_name": "IPCCName",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "林地",
+        "林地",
+        "林地",
+        "林地",
+        "林地",
+        "林地",
+        "林地",
+        "林地"
+      ]
+    },
+    {
+      "field_name": "IPCCTypeID",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0"
+      ]
+    },
+    {
+      "field_name": "MajorTreeI",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "A101",
+        "A101",
+        "A101",
+        "A101",
+        "A101",
+        "A101",
+        "A101",
+        "A101"
+      ]
+    },
+    {
+      "field_name": "MajorTreeP",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "80.0",
+        "80.0",
+        "80.0",
+        "80.0",
+        "80.0",
+        "80.0",
+        "80.0",
+        "80.0"
+      ]
+    },
+    {
+      "field_name": "MergeOnly",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1"
+      ]
+    },
+    {
+      "field_name": "Plot_Numbe",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "96211005003",
+        "96211005003",
+        "96211005003",
+        "96211005003",
+        "96211005003",
+        "96211005003",
+        "96211005003",
+        "96211005003"
+      ]
+    },
+    {
+      "field_name": "Plot_X",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "287613.0",
+        "287613.0",
+        "287613.0",
+        "287613.0",
+        "287613.0",
+        "287613.0",
+        "287613.0",
+        "287613.0"
+      ]
+    },
+    {
+      "field_name": "Plot_Y",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "2710095.0",
+        "2710095.0",
+        "2710095.0",
+        "2710095.0",
+        "2710095.0",
+        "2710095.0",
+        "2710095.0",
+        "2710095.0"
+      ]
+    },
+    {
+      "field_name": "SBA_ha",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "65.18",
+        "65.18",
+        "65.18",
+        "65.18",
+        "65.18",
+        "65.18",
+        "65.18",
+        "65.18"
+      ]
+    },
+    {
+      "field_name": "SType",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0"
+      ]
+    },
+    {
+      "field_name": "SampleID",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "96211005003",
+        "96211005003",
+        "96211005003",
+        "96211005003",
+        "96211005003",
+        "96211005003",
+        "96211005003",
+        "96211005003"
+      ]
+    },
+    {
+      "field_name": "SampleID1",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "96211005003",
+        "96211005003",
+        "96211005003",
+        "96211005003",
+        "96211005003",
+        "96211005003",
+        "96211005003",
+        "96211005003"
+      ]
+    },
+    {
+      "field_name": "SlaveTreeI",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "B600",
+        "B600",
+        "B600",
+        "B600",
+        "B600",
+        "B600",
+        "B600",
+        "B600"
+      ]
+    },
+    {
+      "field_name": "SlaveTreeP",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "20.0",
+        "20.0",
+        "20.0",
+        "20.0",
+        "20.0",
+        "20.0",
+        "20.0",
+        "20.0"
+      ]
+    },
+    {
+      "field_name": "Slope",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "25.0",
+        "25.0",
+        "25.0",
+        "25.0",
+        "25.0",
+        "25.0",
+        "25.0",
+        "25.0"
+      ]
+    },
+    {
+      "field_name": "Survey_Dat",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "20100805.0",
+        "20100805.0",
+        "20100805.0",
+        "20100805.0",
+        "20100805.0",
+        "20100805.0",
+        "20100805.0",
+        "20100805.0"
+      ]
+    },
+    {
+      "field_name": "Terrain",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0"
+      ]
+    },
+    {
+      "field_name": "TypeName",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "針葉樹林型",
+        "針葉樹林型",
+        "針葉樹林型",
+        "針葉樹林型",
+        "針葉樹林型",
+        "針葉樹林型",
+        "針葉樹林型",
+        "針葉樹林型"
+      ]
+    },
+    {
+      "field_name": "UserName",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "陳玉文",
+        "陳玉文",
+        "陳玉文",
+        "陳玉文",
+        "陳玉文",
+        "陳玉文",
+        "陳玉文",
+        "陳玉文"
+      ]
+    },
+    {
+      "field_name": "UserName_1",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "陳玉文",
+        "陳玉文",
+        "陳玉文",
+        "陳玉文",
+        "陳玉文",
+        "陳玉文",
+        "陳玉文",
+        "陳玉文"
+      ]
+    },
+    {
+      "field_name": "VerifyClos",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "5.0",
+        "5.0",
+        "5.0",
+        "5.0",
+        "5.0",
+        "5.0",
+        "5.0",
+        "5.0"
+      ]
+    },
+    {
+      "field_name": "VerifyCrow",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "9.61",
+        "9.61",
+        "9.61",
+        "9.61",
+        "9.61",
+        "9.61",
+        "9.61",
+        "9.61"
+      ]
+    },
+    {
+      "field_name": "VerifyDe_2",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09"
+      ]
+    },
+    {
+      "field_name": "VerifyDe_3",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "農航所",
+        "農航所",
+        "農航所",
+        "農航所",
+        "農航所",
+        "農航所",
+        "農航所",
+        "農航所"
+      ]
+    },
+    {
+      "field_name": "VerifyFini",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "field_name": "VerifyHeig",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "24.25",
+        "24.25",
+        "24.25",
+        "24.25",
+        "24.25",
+        "24.25",
+        "24.25",
+        "24.25"
+      ]
+    },
+    {
+      "field_name": "VerifyPass",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "field_name": "VerifyUs_1",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "林雅苓",
+        "林雅苓",
+        "林雅苓",
+        "林雅苓",
+        "林雅苓",
+        "林雅苓",
+        "林雅苓",
+        "林雅苓"
+      ]
+    },
+    {
+      "field_name": "VerifyUs_2",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "138.0",
+        "138.0",
+        "138.0",
+        "138.0",
+        "138.0",
+        "138.0",
+        "138.0",
+        "138.0"
+      ]
+    },
+    {
+      "field_name": "VerifyUs_3",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "陳玉文",
+        "陳玉文",
+        "陳玉文",
+        "陳玉文",
+        "陳玉文",
+        "陳玉文",
+        "陳玉文",
+        "陳玉文"
+      ]
+    },
+    {
+      "field_name": "VerifyVolu",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0"
+      ]
+    },
+    {
+      "field_name": "Volumn",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0"
+      ]
+    },
+    {
+      "field_name": "X_Coord",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "287580",
+        "287580",
+        "287580",
+        "287580",
+        "287580",
+        "287580",
+        "287580",
+        "287580"
+      ]
+    },
+    {
+      "field_name": "Y_Coord",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "2710045",
+        "2710045",
+        "2710045",
+        "2710045",
+        "2710045",
+        "2710045",
+        "2710045",
+        "2710045"
+      ]
+    },
+    {
+      "field_name": "vol_ha",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "691.22",
+        "691.22",
+        "691.22",
+        "691.22",
+        "691.22",
+        "691.22",
+        "691.22",
+        "691.22"
+      ]
+    },
+    {
+      "field_name": "主要地被種",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "魚鱗蕨",
+        "魚鱗蕨",
+        "魚鱗蕨",
+        "魚鱗蕨",
+        "魚鱗蕨",
+        "魚鱗蕨",
+        "魚鱗蕨",
+        "魚鱗蕨"
+      ]
+    },
+    {
+      "field_name": "備註",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0"
+      ]
+    },
+    {
+      "field_name": "備註_1",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0"
+      ]
+    },
+    {
+      "field_name": "含石率（％",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "9.0",
+        "9.0",
+        "9.0",
+        "9.0",
+        "9.0",
+        "9.0",
+        "9.0",
+        "9.0"
+      ]
+    },
+    {
+      "field_name": "地形",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0"
+      ]
+    },
+    {
+      "field_name": "地被型態",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0"
+      ]
+    },
+    {
+      "field_name": "地被密度",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0"
+      ]
+    },
+    {
+      "field_name": "地被高度",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "3.0",
+        "3.0",
+        "3.0",
+        "3.0",
+        "3.0",
+        "3.0",
+        "3.0",
+        "3.0"
+      ]
+    },
+    {
+      "field_name": "坡度",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "25.0",
+        "25.0",
+        "25.0",
+        "25.0",
+        "25.0",
+        "25.0",
+        "25.0",
+        "25.0"
+      ]
+    },
+    {
+      "field_name": "基本圖圖號",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "96211005",
+        "96211005",
+        "96211005",
+        "96211005",
+        "96211005",
+        "96211005",
+        "96211005",
+        "96211005"
+      ]
+    },
+    {
+      "field_name": "方位角",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "195.0",
+        "195.0",
+        "195.0",
+        "195.0",
+        "195.0",
+        "195.0",
+        "195.0",
+        "195.0"
+      ]
+    },
+    {
+      "field_name": "林區",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0"
+      ]
+    },
+    {
+      "field_name": "林型中類",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "針葉樹林型",
+        "針葉樹林型",
+        "針葉樹林型",
+        "針葉樹林型",
+        "針葉樹林型",
+        "針葉樹林型",
+        "針葉樹林型",
+        "針葉樹林型"
+      ]
+    },
+    {
+      "field_name": "林型大類",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "天然林",
+        "天然林",
+        "天然林",
+        "天然林",
+        "天然林",
+        "天然林",
+        "天然林",
+        "天然林"
+      ]
+    },
+    {
+      "field_name": "林型小類",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "天然檜木林",
+        "天然檜木林",
+        "天然檜木林",
+        "天然檜木林",
+        "天然檜木林",
+        "天然檜木林",
+        "天然檜木林",
+        "天然檜木林"
+      ]
+    },
+    {
+      "field_name": "株_ha",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "600.0",
+        "600.0",
+        "600.0",
+        "600.0",
+        "600.0",
+        "600.0",
+        "600.0",
+        "600.0"
+      ]
+    },
+    {
+      "field_name": "樣區BA",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "3.26",
+        "3.26",
+        "3.26",
+        "3.26",
+        "3.26",
+        "3.26",
+        "3.26",
+        "3.26"
+      ]
+    },
+    {
+      "field_name": "樣區Vol",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "34.56",
+        "34.56",
+        "34.56",
+        "34.56",
+        "34.56",
+        "34.56",
+        "34.56",
+        "34.56"
+      ]
+    },
+    {
+      "field_name": "樣區座標X",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "287613.0",
+        "287613.0",
+        "287613.0",
+        "287613.0",
+        "287613.0",
+        "287613.0",
+        "287613.0",
+        "287613.0"
+      ]
+    },
+    {
+      "field_name": "樣區座標Y",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "2710095.0",
+        "2710095.0",
+        "2710095.0",
+        "2710095.0",
+        "2710095.0",
+        "2710095.0",
+        "2710095.0",
+        "2710095.0"
+      ]
+    },
+    {
+      "field_name": "樣區面積",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "0.05",
+        "0.05",
+        "0.05",
+        "0.05",
+        "0.05",
+        "0.05",
+        "0.05",
+        "0.05"
+      ]
+    },
+    {
+      "field_name": "樣木數",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "30.0",
+        "30.0",
+        "30.0",
+        "30.0",
+        "30.0",
+        "30.0",
+        "30.0",
+        "30.0"
+      ]
+    },
+    {
+      "field_name": "樣點編號",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "003",
+        "003",
+        "003",
+        "003",
+        "003",
+        "003",
+        "003",
+        "003"
+      ]
+    },
+    {
+      "field_name": "樹冠密度",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0"
+      ]
+    },
+    {
+      "field_name": "次要地被種",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "台灣瘤足蕨",
+        "台灣瘤足蕨",
+        "台灣瘤足蕨",
+        "台灣瘤足蕨",
+        "台灣瘤足蕨",
+        "台灣瘤足蕨",
+        "台灣瘤足蕨",
+        "台灣瘤足蕨"
+      ]
+    },
+    {
+      "field_name": "流水號",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.0"
+      ]
+    },
+    {
+      "field_name": "海拔",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "2200.0",
+        "2200.0",
+        "2200.0",
+        "2200.0",
+        "2200.0",
+        "2200.0",
+        "2200.0",
+        "2200.0"
+      ]
+    },
+    {
+      "field_name": "系統座標X",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "287580.0",
+        "287580.0",
+        "287580.0",
+        "287580.0",
+        "287580.0",
+        "287580.0",
+        "287580.0",
+        "287580.0"
+      ]
+    },
+    {
+      "field_name": "系統座標Y",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "2710045.0",
+        "2710045.0",
+        "2710045.0",
+        "2710045.0",
+        "2710045.0",
+        "2710045.0",
+        "2710045.0",
+        "2710045.0"
+      ]
+    },
+    {
+      "field_name": "腐植層厚度",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "0.1",
+        "0.1",
+        "0.1",
+        "0.1",
+        "0.1",
+        "0.1",
+        "0.1",
+        "0.1"
+      ]
+    },
+    {
+      "field_name": "腐植層型態",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "3 (地表為凋落物堆積,凋落物濕腐,下層呈腐泥狀)",
+        "3 (地表為凋落物堆積,凋落物濕腐,下層呈腐泥狀)",
+        "3 (地表為凋落物堆積,凋落物濕腐,下層呈腐泥狀)",
+        "3 (地表為凋落物堆積,凋落物濕腐,下層呈腐泥狀)",
+        "3 (地表為凋落物堆積,凋落物濕腐,下層呈腐泥狀)",
+        "3 (地表為凋落物堆積,凋落物濕腐,下層呈腐泥狀)",
+        "3 (地表為凋落物堆積,凋落物濕腐,下層呈腐泥狀)",
+        "3 (地表為凋落物堆積,凋落物濕腐,下層呈腐泥狀)"
+      ]
+    },
+    {
+      "field_name": "調查人員",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "何家名",
+        "何家名",
+        "何家名",
+        "何家名",
+        "何家名",
+        "何家名",
+        "何家名",
+        "何家名"
+      ]
+    },
+    {
+      "field_name": "調查日期",
+      "appears_in_records": 20,
+      "non_empty_count": 20,
+      "unique_count": 1,
+      "sample_values": [
+        "990805",
+        "990805",
+        "990805",
+        "990805",
+        "990805",
+        "990805",
+        "990805",
+        "990805"
+      ]
+    },
+    {
+      "field_name": "P_S_",
+      "appears_in_records": 20,
+      "non_empty_count": 4,
+      "unique_count": 3,
+      "sample_values": [
+        "7 （實測樹高）",
+        "5 (與69同株)",
+        "1 (A木)",
+        "7 （實測樹高）"
+      ]
+    }
+  ],
+  "trees_mapping": [
+    {
+      "trees_field": "plot_id",
+      "source": "nfi4_subrecords.plot_id",
+      "rule": "直接使用 staging table 中已對應的 plot_id。",
+      "status": "confirmed"
+    },
+    {
+      "trees_field": "inventory_cycle",
+      "source": "constant",
+      "rule": "固定填入 NFI4。",
+      "status": "confirmed"
+    },
+    {
+      "trees_field": "tree_no",
+      "source": "record_index",
+      "rule": "目前 NFI4 未確認有正式樣木號碼欄位，初版以 nfi4_subrecords.record_index 作為暫時 tree_no。",
+      "status": "temporary"
+    },
+    {
+      "trees_field": "tree_status",
+      "source": null,
+      "rule": "目前未確認直接對應欄位，先保留 NULL。",
+      "status": "missing"
+    },
+    {
+      "trees_field": "record_type",
+      "source_candidates": [
+        "SType",
+        "IPCCTypeID"
+      ],
+      "rule": "若 raw_attributes 中存在 SType，優先使用 SType；否則可參考 IPCCTypeID。",
+      "status": "candidate",
+      "selected_source": "SType"
+    },
+    {
+      "trees_field": "line_distance_m",
+      "source": null,
+      "rule": "目前未確認直接對應欄位，先保留 NULL。",
+      "status": "missing"
+    },
+    {
+      "trees_field": "plot_tree_distance_m",
+      "source": null,
+      "rule": "目前未確認直接對應欄位，先保留 NULL。",
+      "status": "missing"
+    },
+    {
+      "trees_field": "species_code",
+      "source": null,
+      "rule": "目前 staging sample 尚未確認樹種代碼欄位，先保留 NULL。",
+      "status": "missing"
+    },
+    {
+      "trees_field": "species_name",
+      "source": null,
+      "rule": "目前 staging sample 尚未確認樹種中文名欄位，先保留 NULL。",
+      "status": "missing"
+    },
+    {
+      "trees_field": "dbh_cm",
+      "source_candidates": [
+        "DBH",
+        "dbh",
+        "Diameter",
+        "diameter",
+        "胸徑",
+        "胸高直徑"
+      ],
+      "rule": "目前 staging sample 尚未確認胸徑欄位；若後續 raw_attributes 出現 DBH 或胸徑類欄位，再正式對應。",
+      "status": "candidate_found_need_review",
+      "selected_source": "DBH"
+    },
+    {
+      "trees_field": "height_m",
+      "source_candidates": [
+        "Height",
+        "height",
+        "樹高"
+      ],
+      "rule": "目前可候選對應 raw_attributes.Height。",
+      "status": "candidate",
+      "selected_source": "Height"
+    },
+    {
+      "trees_field": "clear_bole_height_m",
+      "source_candidates": [
+        "ClearBoleHeight",
+        "clear_bole_height",
+        "枝下高"
+      ],
+      "rule": "目前未確認直接對應欄位，先保留 NULL。",
+      "status": "missing",
+      "selected_source": null
+    },
+    {
+      "trees_field": "crown_class",
+      "source_candidates": [
+        "Crown",
+        "crown",
+        "樹冠級"
+      ],
+      "rule": "目前可候選對應 raw_attributes.Crown，但需確認此欄位是樹冠級、冠幅或其他冠層指標。",
+      "status": "candidate_need_review",
+      "selected_source": "Crown"
+    },
+    {
+      "trees_field": "estimated_volume_m3",
+      "source_candidates": [
+        "Volumn",
+        "Volume",
+        "volume",
+        "材積"
+      ],
+      "rule": "目前可候選對應 raw_attributes.Volumn。注意 NFI4 欄位使用 Volumn 拼法。",
+      "status": "candidate",
+      "selected_source": "Volumn"
+    },
+    {
+      "trees_field": "notes",
+      "source": "generated",
+      "rule": "寫入 converted from nfi4_subrecords staging table，並保留來源 subrecord id。",
+      "status": "confirmed"
+    }
+  ],
+  "decision": {
+    "can_convert_directly_to_trees_now": false,
+    "reason": [
+      "目前可確認 Height、Volumn、Crown 為候選欄位。",
+      "目前尚未確認 DBH / 胸徑欄位。",
+      "目前尚未確認 species_code / species_name 欄位。",
+      "目前尚未確認每一筆 nfi4_subrecords 是否等同一棵樣木。",
+      "因此現階段先建立轉換規則，不直接寫入 trees。"
+    ],
+    "recommended_next_step": "擴大 nfi4_subrecords 匯入樣本，並確認是否存在胸徑與樹種欄位。"
+  }
+}
