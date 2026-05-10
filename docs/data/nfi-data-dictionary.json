@@ -1,0 +1,687 @@
+{
+  "generated_at": "2026-05-10 14:57:32",
+  "source": "C:\\Projects\\forest-harvest-system\\docs\\data\\nfi-field-inventory.json",
+  "description": "NFI3 / NFI4 欄位資料字典初版，依 Shapefile 欄位結構自動產生，供 Forest Harvest System 資料庫設計使用。",
+  "fields": [
+    {
+      "field_name": "FID_",
+      "chinese_name": "識別碼",
+      "category": "識別與編碼欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 9,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "plots / nfi_cycles / species",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "AREA",
+      "chinese_name": "面積",
+      "category": "待分類欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 13,
+      "decimal": 6,
+      "suggested_sql_type": "NUMERIC",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "待判定",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "PERIMETER",
+      "chinese_name": "待判讀",
+      "category": "待分類欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 13,
+      "decimal": 6,
+      "suggested_sql_type": "NUMERIC",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "待判定",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "PLOT_",
+      "chinese_name": "樣區編號或樣區識別欄位",
+      "category": "識別與編碼欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 10,
+      "decimal": 0,
+      "suggested_sql_type": "BIGINT",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "plots / nfi_cycles / species",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "PLOT_ID",
+      "chinese_name": "樣區編號或樣區識別欄位",
+      "category": "識別與編碼欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 10,
+      "decimal": 0,
+      "suggested_sql_type": "BIGINT",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "plots / nfi_cycles / species",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "MAPNO",
+      "chinese_name": "編號",
+      "category": "識別與編碼欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 7,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "plots / nfi_cycles / species",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "PLOTNO",
+      "chinese_name": "樣區編號或樣區識別欄位",
+      "category": "識別與編碼欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 2,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "plots / nfi_cycles / species",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "RECORDER",
+      "chinese_name": "待判讀",
+      "category": "待分類欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 1,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "待判定",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "SURVEYOR",
+      "chinese_name": "Y 座標",
+      "category": "空間定位欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 1,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "plots",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "DATE_",
+      "chinese_name": "調查日期",
+      "category": "調查時間欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 5,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "nfi_cycles / plots",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "ABSCISSA",
+      "chinese_name": "待判讀",
+      "category": "待分類欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 5,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "待判定",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "ORDINATE",
+      "chinese_name": "待判讀",
+      "category": "待分類欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 6,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "待判定",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "PLOTAREA",
+      "chinese_name": "樣區編號或樣區識別欄位",
+      "category": "識別與編碼欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 2,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "plots / nfi_cycles / species",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "ELEVATION",
+      "chinese_name": "海拔",
+      "category": "環境與林分欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 3,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "plots",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "SLOP",
+      "chinese_name": "待判讀",
+      "category": "待分類欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 1,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "待判定",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "ASPECT",
+      "chinese_name": "坡向",
+      "category": "環境與林分欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 4,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "plots",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "LANDUSE",
+      "chinese_name": "土地利用或地類",
+      "category": "環境與林分欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 2,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "plots",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "TERRAINS",
+      "chinese_name": "待判讀",
+      "category": "待分類欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 4,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "待判定",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "AGE",
+      "chinese_name": "待判讀",
+      "category": "待分類欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 1,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "待判定",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "DENSITY",
+      "chinese_name": "Y 座標",
+      "category": "空間定位欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 4,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "plots",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "STAND",
+      "chinese_name": "待判讀",
+      "category": "待分類欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 4,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "待判定",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "MAINCOVER",
+      "chinese_name": "待判讀",
+      "category": "待分類欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 4,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "待判定",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "SECONDCOV",
+      "chinese_name": "待判讀",
+      "category": "待分類欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 4,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "待判定",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "COVDENSITY",
+      "chinese_name": "Y 座標",
+      "category": "空間定位欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 4,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "plots",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "COVHEIGHT",
+      "chinese_name": "樹高",
+      "category": "樣木與林木量測欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 4,
+      "decimal": 0,
+      "suggested_sql_type": "INTEGER",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "trees / species / volume_models / height_models",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "VOL",
+      "chinese_name": "材積",
+      "category": "樣木與林木量測欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 11,
+      "decimal": 0,
+      "suggested_sql_type": "BIGINT",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "trees / species / volume_models / height_models",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "ID",
+      "chinese_name": "識別碼",
+      "category": "識別與編碼欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 15,
+      "decimal": 0,
+      "suggested_sql_type": "BIGINT",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "plots / nfi_cycles / species",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "S",
+      "chinese_name": "待判讀",
+      "category": "待分類欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 10,
+      "decimal": 0,
+      "suggested_sql_type": "BIGINT",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "待判定",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "N",
+      "chinese_name": "待判讀",
+      "category": "待分類欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 10,
+      "decimal": 0,
+      "suggested_sql_type": "BIGINT",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "待判定",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "SUMVOL",
+      "chinese_name": "材積",
+      "category": "樣木與林木量測欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 16,
+      "decimal": 4,
+      "suggested_sql_type": "NUMERIC",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "trees / species / volume_models / height_models",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "DINDEX",
+      "chinese_name": "X 座標",
+      "category": "空間定位欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 16,
+      "decimal": 4,
+      "suggested_sql_type": "NUMERIC",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "plots",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "SIMPSON",
+      "chinese_name": "待判讀",
+      "category": "待分類欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 16,
+      "decimal": 4,
+      "suggested_sql_type": "NUMERIC",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "待判定",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "SHANNON",
+      "chinese_name": "編號",
+      "category": "識別與編碼欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 16,
+      "decimal": 4,
+      "suggested_sql_type": "NUMERIC",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "plots / nfi_cycles / species",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    },
+    {
+      "field_name": "E",
+      "chinese_name": "待判讀",
+      "category": "待分類欄位",
+      "source_datasets": [
+        "NFI3"
+      ],
+      "source_files": [
+        "第三次森林調查樣區97.shp"
+      ],
+      "shapefile_type": "POINT",
+      "field_type": "N",
+      "field_size": 16,
+      "decimal": 4,
+      "suggested_sql_type": "NUMERIC",
+      "unit": "待確認",
+      "required": "待確認",
+      "target_table": "待判定",
+      "notes": "由欄位盤點自動產生，需依原始資料表與專業判讀進一步確認。"
+    }
+  ]
+}
