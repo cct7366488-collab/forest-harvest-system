@@ -30,3 +30,7 @@ Thumbs.db
 
 # Local data storage
 /data/
+
+# Python cache
+__pycache__/
+*.pyc
