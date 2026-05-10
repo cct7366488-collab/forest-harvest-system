@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-05-10 19:25:30",
+  "nfi4_root": "C:\\Projects\\forest-harvest-system\\data\\raw\\nfi\\nfi4",
+  "file_count": 10,
+  "summary_by_extension": {
+    ".dbf": {
+      "count": 1,
+      "total_size_mb": 1063.009
+    },
+    ".prj": {
+      "count": 1,
+      "total_size_mb": 0.0
+    },
+    ".qmd": {
+      "count": 1,
+      "total_size_mb": 0.002
+    },
+    ".sbn": {
+      "count": 1,
+      "total_size_mb": 0.791
+    },
+    ".sbx": {
+      "count": 1,
+      "total_size_mb": 0.008
+    },
+    ".shp": {
+      "count": 1,
+      "total_size_mb": 2.305
+    },
+    ".shx": {
+      "count": 1,
+      "total_size_mb": 0.659
+    },
+    ".xlsx": {
+      "count": 3,
+      "total_size_mb": 76.118
+    }
+  },
+  "files": [
+    {
+      "name": "4th_Final_ForestryInventoryData.dbf",
+      "relative_path": "data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData.dbf",
+      "full_path": "C:\\Projects\\forest-harvest-system\\data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData.dbf",
+      "extension": ".dbf",
+      "size_bytes": 1114645480,
+      "size_mb": 1063.009,
+      "modified_time": "2018-12-20 13:16:30",
+      "file_type": "Shapefile attribute table / DBF table",
+      "possible_role": "可能是樣區 / 林分資料",
+      "is_target_extension": true
+    },
+    {
+      "name": "4th_Final_ForestryInventoryData.prj",
+      "relative_path": "data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData.prj",
+      "full_path": "C:\\Projects\\forest-harvest-system\\data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData.prj",
+      "extension": ".prj",
+      "size_bytes": 399,
+      "size_mb": 0.0,
+      "modified_time": "2018-12-20 13:15:42",
+      "file_type": "Shapefile support file",
+      "possible_role": "可能是樣區 / 林分資料",
+      "is_target_extension": true
+    },
+    {
+      "name": "4th_Final_ForestryInventoryData250505.qmd",
+      "relative_path": "data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData250505.qmd",
+      "full_path": "C:\\Projects\\forest-harvest-system\\data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData250505.qmd",
+      "extension": ".qmd",
+      "size_bytes": 1919,
+      "size_mb": 0.002,
+      "modified_time": "2025-05-05 14:57:30",
+      "file_type": "Other",
+      "possible_role": "可能是樣區 / 林分資料",
+      "is_target_extension": false
+    },
+    {
+      "name": "4th_Final_ForestryInventoryData.sbn",
+      "relative_path": "data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData.sbn",
+      "full_path": "C:\\Projects\\forest-harvest-system\\data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData.sbn",
+      "extension": ".sbn",
+      "size_bytes": 829604,
+      "size_mb": 0.791,
+      "modified_time": "2018-12-20 13:16:32",
+      "file_type": "Other",
+      "possible_role": "可能是樣區 / 林分資料",
+      "is_target_extension": false
+    },
+    {
+      "name": "4th_Final_ForestryInventoryData.sbx",
+      "relative_path": "data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData.sbx",
+      "full_path": "C:\\Projects\\forest-harvest-system\\data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData.sbx",
+      "extension": ".sbx",
+      "size_bytes": 8092,
+      "size_mb": 0.008,
+      "modified_time": "2018-12-20 13:16:32",
+      "file_type": "Other",
+      "possible_role": "可能是樣區 / 林分資料",
+      "is_target_extension": false
+    },
+    {
+      "name": "4th_Final_ForestryInventoryData.shp",
+      "relative_path": "data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData.shp",
+      "full_path": "C:\\Projects\\forest-harvest-system\\data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData.shp",
+      "extension": ".shp",
+      "size_bytes": 2416668,
+      "size_mb": 2.305,
+      "modified_time": "2018-12-20 13:16:28",
+      "file_type": "GIS Shapefile geometry",
+      "possible_role": "可能是樣區 / 林分資料",
+      "is_target_extension": true
+    },
+    {
+      "name": "4th_Final_ForestryInventoryData.shx",
+      "relative_path": "data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData.shx",
+      "full_path": "C:\\Projects\\forest-harvest-system\\data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData.shx",
+      "extension": ".shx",
+      "size_bytes": 690548,
+      "size_mb": 0.659,
+      "modified_time": "2018-12-20 13:16:28",
+      "file_type": "Shapefile support file",
+      "possible_role": "可能是樣區 / 林分資料",
+      "is_target_extension": true
+    },
+    {
+      "name": "4th_Final_ForestryInventoryData.xlsx",
+      "relative_path": "data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData.xlsx",
+      "full_path": "C:\\Projects\\forest-harvest-system\\data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 42356294,
+      "size_mb": 40.394,
+      "modified_time": "2018-12-20 15:05:12",
+      "file_type": "Excel table",
+      "possible_role": "可能是樣區 / 林分資料",
+      "is_target_extension": true
+    },
+    {
+      "name": "4th_Final_ForestryInventoryData250505.xlsx",
+      "relative_path": "data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData250505.xlsx",
+      "full_path": "C:\\Projects\\forest-harvest-system\\data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\4th_Final_ForestryInventoryData250505.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 37459835,
+      "size_mb": 35.724,
+      "modified_time": "2025-05-05 14:57:30",
+      "file_type": "Excel table",
+      "possible_role": "可能是樣區 / 林分資料",
+      "is_target_extension": true
+    },
+    {
+      "name": "~$4th_Final_ForestryInventoryData250505.xlsx",
+      "relative_path": "data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\~$4th_Final_ForestryInventoryData250505.xlsx",
+      "full_path": "C:\\Projects\\forest-harvest-system\\data\\raw\\nfi\\nfi4\\第四次森林資源調查Final_20250505\\第四次森林資源調查Final_20250505\\~$4th_Final_ForestryInventoryData250505.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 165,
+      "size_mb": 0.0,
+      "modified_time": "2025-05-05 15:02:18",
+      "file_type": "Excel table",
+      "possible_role": "可能是樣區 / 林分資料",
+      "is_target_extension": true
+    }
+  ]
+}
