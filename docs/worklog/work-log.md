@@ -1,160 +1,58 @@
 ﻿# Forest Harvest System 收工紀錄 - 2026-05-10
 
-## 一、今日完成總覽
+## 一、本次收工摘要
 
-今天完成 Forest Harvest System 多個後端與資料工程階段，重點包括 NFI3 / NFI4 原始樣區資料放置、NFI 欄位盤點、資料字典、資料庫 schema、PostgreSQL 建表、FastAPI ORM / API、NFI plot_code 精修，以及 NFI3 / NFI4 少量樣區匯入測試。
+建立永久開工與收工腳本，將四地收斂流程工具化。
 
-## 二、今日完成事項
+## 二、專案位置
 
-### 1. NFI3 / NFI4 原始資料放置
+- 本機：C:\Projects\forest-harvest-system
+- GitHub：https://github.com/cct7366488-collab/forest-harvest-system
+- Firebase Project ID：forestry-rs-monitor
+- Obsidian Vault：C:\ObsidianVaults\ForestHarvestSystem
 
-- 第三次森林資源調查樣區資料已放置於 data/raw/nfi/nfi3。
-- 第四次森林資源調查樣區資料已放置於 data/raw/nfi/nfi4。
-- NFI3 Shapefile 已確認包含 .shp、.shx、.dbf、.prj。
-- NFI4 Shapefile 已確認包含 .shp、.shx、.dbf、.prj。
-- 原始大型資料保留於本機，不推送 GitHub。
+## 三、Git 狀態
 
-### 2. NFI 文件化
+- Branch：master
+- Commit：6a38adb
 
-- 建立 NFI dataset README。
-- 建立 NFI 欄位結構盤點文件。
-- 建立 NFI 資料字典。
-- 建立 NFI 欄位對應表。
-- 建立 NFI plot identifier 分析文件。
-- 建立 NFI4 plot_code 組合欄位分析文件。
-- 建立 NFI3 / NFI4 plot_code 正式判定規則。
+### 收工前 Git status --short
+`	ext
+?? tools/
+`",
+",
 
-### 3. NFI3 / NFI4 plot_code 判定
+`	ext
+6a38adb Closing log for NFI backend phases
+e40068e Add NFI plot code rule and identifier utility
+bd40bdb Refine NFI plot identifiers and grouped plot import
+1e84870 Add NFI field mapping and sample plots import
+7c2d996 Add core ORM APIs and NFI ETL preview
+948191b Remove Python cache file from repository
+99bbf88 Add plots API and database ORM
+b943817 Add core database schema design
+d3f575c Add NFI data dictionary
+b172f0d Track NFI documentation outputs
+`",
+",
 
-#### NFI3
 
-- original_plot_id = PLOT_ID
-- plot_code = NFI3-{PLOT_ID}
+`	ext
+  table_name   | count 
+---------------+-------
+ species       |     1
+ volume_models |     1
+ height_models |     1
+ plots         |    11
+ trees         |     1
+(5 rows)
 
-#### NFI4
+`",
+",
 
-- original_plot_id = 樣點編號
-- plot_code = NFI4-{樣點編號}-{X_Coord}-{Y_Coord}
-- 匯入 plots 前，NFI4 必須先依 樣點編號 + X_Coord + Y_Coord 分組。
 
-### 4. PostgreSQL / PostGIS 資料表建立
-
-已成功建立並驗證下列核心資料表：
-
-- species
-- volume_models
-- height_models
-- plots
-- trees
-
-目前資料表狀態：
-
-- species：已建立
-- volume_models：已建立
-- height_models：已建立
-- plots：已建立
-- trees：已建立
-
-### 5. FastAPI / SQLAlchemy / API
-
-- 建立 SQLAlchemy ORM models。
-- 建立 /plots API。
-- 建立 /species API。
-- 建立 /trees API。
-- 建立 /volume-models API。
-- 建立 /height-models API。
-- FastAPI 已可連線 PostgreSQL。
-- 已成功透過 API 寫入 TEST-PLOT-001。
-
-### 6. 測試資料與 NFI 少量匯入
-
-已成功匯入：
-
-- TEST：1 筆
-- NFI3：5 筆
-- NFI4：5 筆
-
-目前 plots 測試匯入結果正確。
-
-### 7. GitHub 同步
-
-- 今日新增與修改程式碼、文件均已多次 commit / push。
-- 最後狀態確認為 working tree clean。
-
-## 三、今日建立或更新的重要檔案
-
-### analysis/scripts
-
-- inspect_nfi_fields.py
-- build_nfi_data_dictionary.py
-- prepare_nfi_etl.py
-- build_nfi_field_mapping.py
-- import_nfi_plots_sample.py
-- analyze_nfi_plot_identifier.py
-- analyze_nfi4_plot_code_combo.py
-- print_nfi_identifier_candidates.py
-
-### docs/data
-
-- nfi-dataset-readme.md
-- nfi-field-inventory.md
-- nfi-field-inventory.json
-- nfi-data-dictionary.md
-- nfi-data-dictionary.json
-- nfi-field-mapping.md
-- nfi-field-mapping.json
-- nfi-plot-identifier-analysis.md
-- nfi-plot-identifier-analysis.json
-- nfi4-plot-code-combo-analysis.md
-- nfi4-plot-code-combo-analysis.json
-- nfi-plot-code-rule.md
-
-### docs/database / database
-
-- docs/database/schema-design.md
-- database/schema.sql
-
-### backend
-
-- backend/app/database.py
-- backend/app/main.py
-- backend/app/models/plot.py
-- backend/app/models/species.py
-- backend/app/models/tree.py
-- backend/app/models/volume_model.py
-- backend/app/models/height_model.py
-- backend/app/api/plots.py
-- backend/app/api/species.py
-- backend/app/api/trees.py
-- backend/app/api/volume_models.py
-- backend/app/api/height_models.py
-- backend/scripts/insert_test_core_data.ps1
-
-## 四、目前四地狀態
-
-| 位置 | 狀態 | 說明 |
-|---|---|---|
-| 本機 | 完成 | C:\Projects\forest-harvest-system |
-| GitHub | 完成 | https://github.com/cct7366488-collab/forest-harvest-system |
-| Obsidian | 完成 | C:\ObsidianVaults\ForestHarvestSystem |
-| Firebase | 階段性完成 | 已建立本機 Firebase 狀態檔，Firestore collections 尚未正式建立 |
-
-## 五、下次開工優先事項
-
-下次開工請先讀取：
-
-C:\ObsidianVaults\ForestHarvestSystem\readme.md
-
-接續工作建議：
-
-1. Backend Phase 6：NFI trees / 子紀錄匯入策略。
-2. 判斷 NFI4 中哪些欄位屬於 trees 樣木層級。
-3. 建立 NFI4 → trees 欄位對應表。
-4. 建立 trees 匯入腳本。
-5. 測試匯入少量樣木資料。
-6. 驗證 trees.plot_id 與 plots.id 關聯。
-7. 後續再處理立木材積式與樹高曲線式正式資料匯入。
+Backend Phase 6：NFI trees / 子紀錄匯入策略
 
 ## 六、收工時間
 
-2026-05-10 16:12:25
+2026-05-10 16:20:36
