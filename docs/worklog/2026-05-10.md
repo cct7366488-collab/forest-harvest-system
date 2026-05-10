@@ -2,7 +2,7 @@
 
 ## 一、本次收工摘要
 
-建立永久開工與收工腳本，將四地收斂流程工具化。
+本次收工由 close-work.ps1 自動產生。
 
 ## 二、專案位置
 
@@ -14,15 +14,16 @@
 ## 三、Git 狀態
 
 - Branch：master
-- Commit：6a38adb
+- Commit：df85e8a
 
 ### 收工前 Git status --short
 `	ext
-?? tools/
+working tree clean
 `",
 ",
 
 `	ext
+df85e8a Closing log 2026-05-10
 6a38adb Closing log for NFI backend phases
 e40068e Add NFI plot code rule and identifier utility
 bd40bdb Refine NFI plot identifiers and grouped plot import
@@ -32,7 +33,6 @@ bd40bdb Refine NFI plot identifiers and grouped plot import
 99bbf88 Add plots API and database ORM
 b943817 Add core database schema design
 d3f575c Add NFI data dictionary
-b172f0d Track NFI documentation outputs
 `",
 ",
 
@@ -55,4 +55,4 @@ Backend Phase 6：NFI trees / 子紀錄匯入策略
 
 ## 六、收工時間
 
-2026-05-10 16:20:36
+2026-05-10 16:23:47
